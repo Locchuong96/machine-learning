@@ -21,6 +21,10 @@ https://www.youtube.com/watch?v=qFJeN9V1ZsI&list=PLsM05n4rlXWSVv0mNvv04EBI6fnQ8_
 
 https://www.youtube.com/watch?v=GIsg-ZUy0MY&list=PLsM05n4rlXWSVv0mNvv04EBI6fnQ8_ihR&index=17
 
+## Web AI application
+
+https://www.youtube.com/watch?v=hAEJajltHxc&list=PLsM05n4rlXWTamBIPSom7mQVA-xooDkxw&index=41
+
 
 
 
