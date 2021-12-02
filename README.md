@@ -1,5 +1,18 @@
 # Machine-Learning
-:) 
+
+:)
+
+## CS 329S: Machine Learning Systems Design
+
+https://stanford-cs329s.github.io/
+
+## Huyen Chip Portpolio
+
+https://huyenchip.com/
+
+## Huyen Chip github
+
+https://github.com/chiphuyen
 
 ## Machine Learning Course for Beginners
 
@@ -24,8 +37,3 @@ https://www.youtube.com/watch?v=GIsg-ZUy0MY&list=PLsM05n4rlXWSVv0mNvv04EBI6fnQ8_
 ## Web AI application
 
 https://www.youtube.com/watch?v=hAEJajltHxc&list=PLsM05n4rlXWTamBIPSom7mQVA-xooDkxw&index=41
-
-
-
-
-
