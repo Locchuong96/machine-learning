@@ -6,6 +6,10 @@
 
 https://github.com/ultralytics
 
+## CS231n: Convolutional Neural Networks for Visual Recognition.
+
+https://cs231n.github.io/
+
 ## CS 329S: Machine Learning Systems Design
 
 https://stanford-cs329s.github.io/
