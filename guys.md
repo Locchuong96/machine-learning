@@ -16,6 +16,9 @@ https://github.com/karenyang
 https://huyenchip.com/
 https://github.com/chiphuyen
 
+##
+https://github.com/mingyuliutw
+
 # Ultralytics
 https://github.com/ultralytics
 
