@@ -16,7 +16,7 @@ https://github.com/karenyang
 https://huyenchip.com/
 https://github.com/chiphuyen
 
-##
+## Ming-Yu Liu 劉洺堉
 https://github.com/mingyuliutw
 
 # Ultralytics
