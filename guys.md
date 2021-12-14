@@ -19,6 +19,9 @@ https://github.com/chiphuyen
 ## Ming-Yu Liu 劉洺堉
 https://github.com/mingyuliutw
 
+## Glenn Jocher
+https://github.com/glenn-jocher
+
 # Ultralytics
 https://github.com/ultralytics
 
