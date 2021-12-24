@@ -1,0 +1,140 @@
+Cost after iteration 0: 0.695465
+Cost after iteration 500: 0.511190
+Cost after iteration 1000: 0.301722
+Cost after iteration 1500: 0.110105
+Cost after iteration 2000: 0.056338
+Cost after iteration 2500: 0.033368
+Cost after iteration 0: 0.690465
+Cost after iteration 500: 0.074122
+Cost after iteration 1000: 0.027267
+Cost after iteration 1500: 0.016458
+Cost after iteration 2000: 0.011747
+Cost after iteration 2500: 0.009120
+Accuracy Train: 100.0
+Accuracy Dev: 68.0
+Cost after iteration 0: 0.690876
+Cost after iteration 500: 0.522675
+Cost after iteration 1000: 0.295285
+Cost after iteration 1500: 0.108592
+Cost after iteration 2000: 0.055824
+Cost after iteration 2500: 0.034721
+Cost after iteration 0: 0.698257
+Cost after iteration 500: 0.044026
+Cost after iteration 1000: 0.015143
+Cost after iteration 1500: 0.008941
+Cost after iteration 2000: 0.006306
+Cost after iteration 2500: 0.004859
+Accuracy Train: 100.0
+Accuracy Dev: 74.0
+Cost after iteration 0: 0.696233
+Cost after iteration 500: 0.484045
+Cost after iteration 1000: 0.273270
+Cost after iteration 1500: 0.090168
+Cost after iteration 2000: 0.043259
+Cost after iteration 2500: 0.026557
+Cost after iteration 0: 0.689889
+Cost after iteration 500: 0.036895
+Cost after iteration 1000: 0.012561
+Cost after iteration 1500: 0.007330
+Cost after iteration 2000: 0.005125
+Cost after iteration 2500: 0.003923
+Accuracy Train: 100.0
+Accuracy Dev: 68.0
+Cost after iteration 0: 0.697734
+Cost after iteration 500: 0.444415
+Cost after iteration 1000: 0.246152
+Cost after iteration 1500: 0.077125
+Cost after iteration 2000: 0.038657
+Cost after iteration 2500: 0.023729
+Cost after iteration 0: 0.687026
+Cost after iteration 500: 0.033028
+Cost after iteration 1000: 0.010787
+Cost after iteration 1500: 0.006180
+Cost after iteration 2000: 0.004271
+Cost after iteration 2500: 0.003242
+Accuracy Train: 100.0
+Accuracy Dev: 68.0
+Cost after iteration 0: 0.694180
+Cost after iteration 500: 0.453276
+Cost after iteration 1000: 0.248400
+Cost after iteration 1500: 0.074008
+Cost after iteration 2000: 0.035632
+Cost after iteration 2500: 0.021579
+Cost after iteration 0: 0.693220
+Cost after iteration 500: 0.031481
+Cost after iteration 1000: 0.010104
+Cost after iteration 1500: 0.005742
+Cost after iteration 2000: 0.003945
+Cost after iteration 2500: 0.002981
+Accuracy Train: 100.0
+Accuracy Dev: 72.0
+Cost after iteration 0: 0.692648
+Cost after iteration 500: 0.396179
+Cost after iteration 1000: 0.222651
+Cost after iteration 1500: 0.064564
+Cost after iteration 2000: 0.032896
+Cost after iteration 2500: 0.020401
+Cost after iteration 0: 0.692837
+Cost after iteration 500: 0.028685
+Cost after iteration 1000: 0.009230
+Cost after iteration 1500: 0.005232
+Cost after iteration 2000: 0.003592
+Cost after iteration 2500: 0.002714
+Accuracy Train: 100.0
+Accuracy Dev: 72.0
+Cost after iteration 0: 0.690239
+Cost after iteration 500: 0.395710
+Cost after iteration 1000: 0.220169
+Cost after iteration 1500: 0.062329
+Cost after iteration 2000: 0.031696
+Cost after iteration 2500: 0.019650
+Cost after iteration 0: 0.697196
+Cost after iteration 500: 0.027430
+Cost after iteration 1000: 0.008753
+Cost after iteration 1500: 0.004939
+Cost after iteration 2000: 0.003378
+Cost after iteration 2500: 0.002545
+Accuracy Train: 100.0
+Accuracy Dev: 72.0
+Cost after iteration 0: 0.693852
+Cost after iteration 500: 0.404750
+Cost after iteration 1000: 0.227111
+Cost after iteration 1500: 0.064938
+Cost after iteration 2000: 0.032938
+Cost after iteration 2500: 0.020321
+Cost after iteration 0: 0.693365
+Cost after iteration 500: 0.026636
+Cost after iteration 1000: 0.008490
+Cost after iteration 1500: 0.004780
+Cost after iteration 2000: 0.003264
+Cost after iteration 2500: 0.002454
+Accuracy Train: 100.0
+Accuracy Dev: 74.0
+Cost after iteration 0: 0.696994
+Cost after iteration 500: 0.373537
+Cost after iteration 1000: 0.212525
+Cost after iteration 1500: 0.059490
+Cost after iteration 2000: 0.030217
+Cost after iteration 2500: 0.018783
+Cost after iteration 0: 0.688398
+Cost after iteration 500: 0.024626
+Cost after iteration 1000: 0.007790
+Cost after iteration 1500: 0.004370
+Cost after iteration 2000: 0.002977
+Cost after iteration 2500: 0.002236
+Accuracy Train: 100.0
+Accuracy Dev: 72.0
+Cost after iteration 0: 0.689695
+Cost after iteration 500: 0.384005
+Cost after iteration 1000: 0.208443
+Cost after iteration 1500: 0.059444
+Cost after iteration 2000: 0.030477
+Cost after iteration 2500: 0.018962
+Cost after iteration 0: 0.696275
+Cost after iteration 500: 0.023710
+Cost after iteration 1000: 0.007616
+Cost after iteration 1500: 0.004282
+Cost after iteration 2000: 0.002917
+Cost after iteration 2500: 0.002189
+Accuracy Train: 100.0
+Accuracy Dev: 72.0
