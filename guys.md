@@ -1,7 +1,7 @@
 # Standford University
 
-## CS231n
-https://github.com/cs231n
+## greerviau
+https://github.com/greerviau
 
 ## Jim Fan 
 https://github.com/LinxiFan
