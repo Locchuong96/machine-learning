@@ -21,3 +21,9 @@ https://www.youtube.com/watch?v=GIsg-ZUy0MY&list=PLsM05n4rlXWSVv0mNvv04EBI6fnQ8_
 
 ## Web AI application
 https://www.youtube.com/watch?v=hAEJajltHxc&list=PLsM05n4rlXWTamBIPSom7mQVA-xooDkxw&index=41
+
+## TensorFlow course
+https://dev.mrdbourke.com/tensorflow-deep-learning/#what-is-tensorflow
+
+## Full stack deep learning
+https://fullstackdeeplearning.com/spring2021/
