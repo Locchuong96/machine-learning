@@ -27,3 +27,7 @@ https://dev.mrdbourke.com/tensorflow-deep-learning/#what-is-tensorflow
 
 ## Full stack deep learning
 https://fullstackdeeplearning.com/spring2021/
+
+## Neural Network & CNN
+https://playground.tensorflow.org
+https://poloclub.github.io/cnn-explainer/
