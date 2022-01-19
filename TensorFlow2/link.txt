@@ -1,0 +1,3 @@
+Youtube Part1: https://www.youtube.com/watch?v=tpCFfeUEGs8&list=PLsM05n4rlXWSVv0mNvv04EBI6fnQ8_ihR
+Youtube Part2: https://www.youtube.com/watch?v=ZUKz4125WNI
+Github: https://github.com/mrdbourke/tensorflow-deep-learning/
