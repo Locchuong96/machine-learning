@@ -12,4 +12,4 @@
 
 # read docstring in jupyter notebook
 
-`shift + tab`
+`shift` + `tab`
