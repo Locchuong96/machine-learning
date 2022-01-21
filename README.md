@@ -26,4 +26,4 @@
 |23||Write a book|||
 |24||Teaching ML course|||
 |25||Complete your math skill|||
-|26|Professinal|Do research|||
+|26|Professional|Do research|||
