@@ -1,3 +1,6 @@
+# source 
+https://github.com/mrdbourke/tensorflow-deep-learning/
+
 # install tensorlow on window
 
 `pip install tensorflow`
