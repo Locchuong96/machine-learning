@@ -9,6 +9,7 @@
 ||Learn from many sources (ex: videos,books,documents,...)|❌|
 |Intermediate|Use what you got with **real datasets**|❌|
 ||Embark Kaggle and do some|❌|
+||Get certificates from tensorflow, coursera... or any famous Organizations|❌|
 ||Embark many competitions||
 ||Understand ML repositories from some of famous guys||
 ||Build a model with just it's work flow||
