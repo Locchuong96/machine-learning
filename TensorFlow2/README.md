@@ -23,7 +23,7 @@ https://github.com/mrdbourke/tensorflow-deep-learning/
 
 ## ML architecture
 
-![ML_architeture](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-ML_architecture.PNG)
+![ML_architeture](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-ML_architecture2.PNG)
 
 ## ML modern
 
@@ -34,7 +34,7 @@ https://github.com/mrdbourke/tensorflow-deep-learning/
 
 ## Keras API
 
-![keras_api[(https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-Keras_API.PNG)
+![keras_api](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-Keras_API.PNG)
 
 ## tensorflow API
 ![tensorflow_api](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-TensorFLow_API.PNG)
