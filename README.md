@@ -19,7 +19,7 @@
 |15||Build a model with just it's work flow||
 |16||Write your own ML repo like some of pro guy||
 |17||Read and understand ML papers||
-|18|Advanced|Build a ML application from idea||
+|18|Advanced|Build a ML application from **idea**||
 |19||Write a paper||
 |20||Write a book||
 |21||Teaching ML course||
