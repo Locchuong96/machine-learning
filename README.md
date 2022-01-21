@@ -21,5 +21,8 @@
 |17||Read and understand ML papers||
 |18|Advanced|Build a ML application from idea||
 |19||Write a paper||
-|20|Professinal|Do math stuff...?||
+|20||Write a book||
+|21|Professinal|Do research||
+
+
 
