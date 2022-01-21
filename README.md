@@ -12,6 +12,6 @@
 ||Write your own ML repo with full features|❌|
 ||Learn from many sources (ex: videos,books,documents,...)|❌|
 ||Read and understand ML papers|❌|
-|Advanced|Build a ML application||❌|
-|Professinal|Create a new ML model||❌|
+|Advanced|Build a ML application|❌|
+|Professinal|Create a new ML model|❌|
 
