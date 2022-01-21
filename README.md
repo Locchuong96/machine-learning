@@ -14,7 +14,7 @@
 |11||Get a **certificate** from **tensorflow, coursera**... or any famous Organizations|❌|
 |12||Get a full-time job and do ML for living|🏆|
 |13||Embark many **competitions**||
-|14||Understand ML repositories from some of famous guys||
+|14||**Understand** ML repositories from some of famous guys||
 |15||Build a model with just it's work flow||
 |16||Write your own ML repo like some of pro guy||
 |17||Read and understand ML papers||
