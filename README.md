@@ -9,7 +9,7 @@
 |06||Learn from many sources (ex: videos,books,documents,...)|❌|
 |07|Intermediate|Use what you got with **real datasets**|❌|
 |08||Embark *Kaggle* and do some|❌|
-|09||Enroll in open source ML project for non-profit|⭐|
+|09||Enroll in open source ML projects for non-profit|⭐|
 |10||Get a part-time or freelance jobs and get money|💰|
 |11||Get certificates from tensorflow, coursera... or any famous Organizations|❌|
 |12||Get a full-time job and do ML for living|🏆|
