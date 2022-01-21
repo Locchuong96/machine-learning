@@ -1,5 +1,5 @@
 :)
-|No|Level|Action|Status|Time|
+|No|Level|Action|Status|Deadline|
 |---|---|---|---|---|
 |01|Beginner|Take a online course|☑|2021|
 |02||Watching **youtube** courses and **redo**  what you learned|❌|2022-1|
