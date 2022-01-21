@@ -12,7 +12,7 @@
 |09||Enroll in open source ML project with non-profit|⭐|
 |10||Get a part-time or freelance jobs and get money|💰|
 |11||Get certificates from tensorflow, coursera... or any famous Organizations|❌|
-|12|||Get a full-time job and do ML for living|🏆|
+|12||Get a full-time job and do ML for living|🏆|
 |13||Embark many competitions||
 |14||Understand ML repositories from some of famous guys||
 |15||Build a model with just it's work flow||
