@@ -1,7 +1,7 @@
 # source 
 https://github.com/mrdbourke/tensorflow-deep-learning/
 
-# install tensorlow on window
+## install tensorlow on window
 
 `pip install tensorflow`
 
@@ -9,10 +9,32 @@ https://github.com/mrdbourke/tensorflow-deep-learning/
 
 `pip install --upgrade tensorflow
 `
-# dependencies
+##   dependencies
 
 ![libraries](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/libraries.PNG)
 
-# read docstring in jupyter notebook
+## read docstring in jupyter notebook
 
 `shift` + `tab`
+
+## tensor
+
+![tensor](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/00-tensor-information.PNG)
+
+## ML architecture
+
+![ML_architeture](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-ML_architecture.PNG)
+
+## ML modern
+
+![ML_modern](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-MLP_modern.PNG)
+
+## ML typycal
+![ML_typycal](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-MLP_modern.PNG)
+
+## Keras API
+
+![keras_api[(https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-Keras_API.PNG)
+
+## tensorflow API
+![tensorflow_api](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-TensorFLow_API.PNG)
