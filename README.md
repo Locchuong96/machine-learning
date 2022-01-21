@@ -3,6 +3,7 @@
 |---|---|---|
 |Beginner|Take a online course|☑|
 ||Watching youtube courses and redo  what you learned|❌|
+||Understand the math problems behind the code|☑|
 ||Write Machine learning algorithms **without** tools, library or dependenices...|❌|
 ||Read books and write code by yourself|☑|
 |Intermediate|Use what you got with **real datasets**|❌|
