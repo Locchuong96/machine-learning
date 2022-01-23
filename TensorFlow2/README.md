@@ -38,3 +38,7 @@ https://github.com/mrdbourke/tensorflow-deep-learning/
 
 ## tensorflow API
 ![tensorflow_api](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-TensorFLow_API.PNG)
+
+## disphay model 
+
+`pip install pydot` and graphviz: https://graphviz.org/download/
