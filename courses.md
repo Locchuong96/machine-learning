@@ -31,3 +31,6 @@ https://fullstackdeeplearning.com/spring2021/
 ## Neural Network & CNN
 https://playground.tensorflow.org
 https://poloclub.github.io/cnn-explainer/
+
+## machinelearningmastery
+https://machinelearningmastery.com/
