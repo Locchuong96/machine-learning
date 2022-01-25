@@ -34,3 +34,8 @@ https://poloclub.github.io/cnn-explainer/
 
 ## machinelearningmastery
 https://machinelearningmastery.com/
+
+## Deep Learning with OpenCV
+https://www.pyimagesearch.com/2017/09/11/object-detection-with-deep-learning-and-opencv/
+
+https://www.pyimagesearch.com/2017/08/21/deep-learning-with-opencv/?_ga=2.9299197.952173571.1643003064-260691303.1643003064
