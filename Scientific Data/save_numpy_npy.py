@@ -1,3 +1,4 @@
+# Good for storage image in numpy array
 # save numpy array as npy file
 import cv2
 from numpy import save
