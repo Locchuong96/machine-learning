@@ -25,3 +25,5 @@ https://cs231n.github.io/
 https://tfhub.dev/
 
 https://datascience.eu/
+
+http://caffe.berkeleyvision.org/
