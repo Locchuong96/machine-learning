@@ -1,3 +1,9 @@
+## FiftyOne
+https://voxel51.com/docs/fiftyone/
+
+## COCO dataset
+https://cocodataset.org/#home
+
 ## TensorFlow-Hub
 https://tfhub.dev/
 
