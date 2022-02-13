@@ -8,7 +8,7 @@
 
 `tf.random.shuffle`
 
-`tf.random.zeros()` `tf.random.ones()`
+`tf.zeros()` `tf.ones()`
 
 `tensor.ndim` `tensor.shape` `tensor.dtype` `tf.size(tensor)` `tf.size(tensor).numpy()`
 
