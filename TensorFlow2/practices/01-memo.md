@@ -131,3 +131,5 @@
 `plot_model(model, show_shapes = True)`
 
 `tf.keras.losses.mean_absolute_error(y_test,tf.squeeze(y_pred))`
+
+`mse = tf.losses.MSE(y_true= y_test,y_pred = tf.squeeze(y_pred))`
