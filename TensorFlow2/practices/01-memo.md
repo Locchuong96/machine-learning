@@ -52,13 +52,11 @@
 
 `model.summary()`
 
-`model.input, model.inputs`
+`model.input` `model.inputs`
 
-`model.output,model.outputs`
+`model.output` `model.outputs`
 
-`model.variables`
-
-`model.weights`
+`model.variables` `model.weights`
 
 `model.predict(tf.constant([17.0]),verbose = 1)`
 
