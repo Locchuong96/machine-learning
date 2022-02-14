@@ -10,9 +10,13 @@
 
 `model.add(tf.keras.layers.Dense(1,input_shape = input_shape)`
 
-`model = tf.keras.Sequential([tf.keras.layers.Dense(10,input_shape = [1],name= 'input_layer'),
-                            tf.keras.layers.Dense(1,name= 'output_layer')
-                            ],name = "neural_network")`
+`model = tf.keras.Sequential([
+                              tf.keras.layers.Dense(10,input_shape = [1],name= 'input_layer'),
+
+                              tf.keras.layers.Dense(1,name= 'output_layer')
+
+                              ],
+                              name = "neural_network")`
 
 `model.compile(loss = , optimizer = ,metrics = )` `tf.keras.optimizers.Adam(learning_rate = 0.0001)`
 
