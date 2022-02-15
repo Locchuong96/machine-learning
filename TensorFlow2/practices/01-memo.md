@@ -172,3 +172,5 @@
     X_train_normal = ct.transform(X_train)
     X_test_normal = ct.transform(X_test)
     `
+    
+    `df.dtypes` `df.describe()`
