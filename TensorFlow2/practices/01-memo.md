@@ -173,4 +173,4 @@
     X_test_normal = ct.transform(X_test)
     `
     
-    `df.dtypes` `df.describe()`
+`df.dtypes` `df.describe()`
