@@ -133,3 +133,12 @@
 `tf.keras.losses.mean_absolute_error(y_test,tf.squeeze(y_pred))`
 
 `mse = tf.losses.MSE(y_true= y_test,y_pred = tf.squeeze(y_pred))`
+
+`model_2.save("best_model_SavedModel_format")` `model_2.save("best_model_HDF5_format.h5")`
+
+`model = tf.keras.models.load_model('./best_model_SavedModel_format')` `model = tf.keras.models.load_model("./best_model_HDF5_format.h5")`
+
+`insurance_one_hot = pd.get_dummies(insurance)` `insurance_one_hot = insurance_one_hot.drop(columns= ['sex_male','smoker_yes'])`
+
+`X = insurance_one_hot.drop("charges",axis = 1)` `y = insurance['charges']` 
+`from sklearn.model_selection import train_test_split` `X_train,X_test,y_train,y_test = train_test_split()`
