@@ -6,8 +6,8 @@
 
 `plt.scatter(X[:,0],X[:,1],c=y, cmap =plt.cm.RdYlBu)`
 
-    `
+    
     model_2.compile(loss = tf.keras.losses.BinaryCrossentropy(),
                    optimizer = tf.keras.optimizers.SGD(),
                    metrics = ['accuracy'])
-    `
+    
