@@ -51,3 +51,7 @@ https://github.com/mrdbourke/tensorflow-deep-learning/
 ## disphay model 
 
 `pip install pydot` and graphviz: https://graphviz.org/download/
+
+## Evaluate classification
+
+![evaluate](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/classification_evaluation.PNG)
