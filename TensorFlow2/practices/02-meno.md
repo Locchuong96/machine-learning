@@ -45,14 +45,14 @@
 `confusion_matrix(y_test,y_preds)`
 
     # pretify the confusion matrix
-import itertools
+    import itertools
 
-figsize = (10,10)
+    figsize = (10,10)
 
-# create the confusion matrix
-cm = confusion_matrix(y_test,y_preds)
-cm_norm = cm.astype("float") /cm.sum(axis = 1)[:,np.newaxis] # normalize our confusion matrix
-n_classes = cm.shape[0]
+    # create the confusion matrix
+    cm = confusion_matrix(y_test,y_preds)
+    cm_norm = cm.astype("float") /cm.sum(axis = 1)[:,np.newaxis] # normalize our confusion matrix
+    n_classes = cm.shape[0]
 
     # Let prettify it
     fig,ax = plt.subplots(figsize=figsize)
