@@ -45,14 +45,14 @@
 `confusion_matrix(y_test,y_preds)`
 
     # pretify the confusion matrix
-    import itertools
+import itertools
 
-    figsize = (10,10)
+figsize = (10,10)
 
-    # create the confusion matrix
-    cm = confusion_matrix(y_test,y_preds)
-    cm_norm = cm.astype("float") /cm.sum(axis = 1)[:,np.newaxis] # normalize our confusion matrix
-    n_classes = cm.shape[0]
+# create the confusion matrix
+cm = confusion_matrix(y_test,y_preds)
+cm_norm = cm.astype("float") /cm.sum(axis = 1)[:,np.newaxis] # normalize our confusion matrix
+n_classes = cm.shape[0]
 
     # Let prettify it
     fig,ax = plt.subplots(figsize=figsize)
@@ -76,6 +76,15 @@
           yticks = np.arange(n_classes),
           xticklabels = labels,
           yticklabels = labels)
+
+    # Set x-axis labels to bottom
+    ax.xaxis.set_label_position("bottom")
+    ax.xaxis.tick_bottom()
+
+    # Adjust label size
+    ax.yaxis.label.set_size(20)
+    ax.xaxis.label.set_size(20)
+    ax.title.set_size(20)
 
     # Set threshold for different colors
     threshold = (cm.max() + cm.min())/2
