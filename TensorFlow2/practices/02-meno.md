@@ -10,4 +10,6 @@
     model_2.compile(loss = tf.keras.losses.BinaryCrossentropy(),
                    optimizer = tf.keras.optimizers.SGD(),
                    metrics = ['accuracy'])
+                   
+`tf.keras.layers.Dense(1,activation = tf.keras.activations.linear`
     
