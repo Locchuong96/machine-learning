@@ -25,3 +25,11 @@
 
     A = tf.cast(tf.range(-10,10),tf.float32)
     plt.plot(A)
+
+`history_8 = model_8.fit(X_train,
+                       y_train,
+                       epochs = 100,
+                       callbacks = [lr_scheduler],
+                       verbose = 1)`
+
+`plt.semilogx(lrs,history_8.history['loss'])`
