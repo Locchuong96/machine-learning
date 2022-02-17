@@ -19,5 +19,7 @@
                metrics= ['accuracy'])
                
 
+`lr_scheduler = tf.keras.callbacks.LearningRateScheduler(lambda epoch:1e-4 * 10**(epoch/20))`
+
     A = tf.cast(tf.range(-10,10),tf.float32)
     plt.plot(A)
