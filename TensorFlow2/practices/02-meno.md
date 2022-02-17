@@ -7,9 +7,11 @@
 `plt.scatter(X[:,0],X[:,1],c=y, cmap =plt.cm.RdYlBu)`
 
     
-    model_2.compile(loss = tf.keras.losses.BinaryCrossentropy(),
-                   optimizer = tf.keras.optimizers.SGD(),
-                   metrics = ['accuracy'])
+    history_8 = model_8.fit(X_train,
+                       y_train,
+                       epochs = 100,
+                       callbacks = [lr_scheduler],
+                       verbose = 1)
                    
 `tf.keras.layers.Dense(1,activation = tf.keras.activations.linear`
 
