@@ -12,4 +12,8 @@
                    metrics = ['accuracy'])
                    
 `tf.keras.layers.Dense(1,activation = tf.keras.activations.linear`
+
     
+    model_4.compile(loss = "binary_crossentropy",
+               optimizer = tf.keras.optmizers.Adam(learning_rate = 0.001),
+               metrics= ['accuracy'])
