@@ -17,3 +17,7 @@
     model_4.compile(loss = "binary_crossentropy",
                optimizer = tf.keras.optmizers.Adam(learning_rate = 0.001),
                metrics= ['accuracy'])
+               
+
+    A = tf.cast(tf.range(-10,10),tf.float32)
+    plt.plot(A)
