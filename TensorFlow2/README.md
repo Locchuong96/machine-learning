@@ -55,3 +55,7 @@ https://github.com/mrdbourke/tensorflow-deep-learning/
 ## Evaluate classification
 
 ![evaluate](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/classification_evaluation_full.PNG)
+
+## Confusion matrix
+
+![confusion_matric](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/confusion_matrix.PNG)
