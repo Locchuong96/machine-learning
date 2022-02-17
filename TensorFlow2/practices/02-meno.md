@@ -37,3 +37,9 @@
     loss, accuracy = model_9.evaluate(X_test,y_test)
     print(f'Model loss on  the test set: {loss}')
     print(f'Model accuracy on the test set: {(accuracy*100):.2f}%')
+    
+`from sklearn.metrics import confusion_matrix`
+
+`y_preds =np.round(model_9.predict(X_test))`
+
+`confusion_matrix(y_test,y_preds)`
