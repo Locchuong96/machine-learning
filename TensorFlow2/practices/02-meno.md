@@ -33,3 +33,7 @@
                        verbose = 1)`
 
 `plt.semilogx(lrs,history_8.history['loss'])`
+
+    loss, accuracy = model_9.evaluate(X_test,y_test)
+    print(f'Model loss on  the test set: {loss}')
+    print(f'Model accuracy on the test set: {(accuracy*100):.2f}%')
