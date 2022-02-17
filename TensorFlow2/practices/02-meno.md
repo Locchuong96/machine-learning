@@ -43,3 +43,46 @@
 `y_preds =np.round(model_9.predict(X_test))`
 
 `confusion_matrix(y_test,y_preds)`
+
+    # pretify the confusion matrix
+    import itertools
+
+    figsize = (10,10)
+
+    # create the confusion matrix
+    cm = confusion_matrix(y_test,y_preds)
+    cm_norm = cm.astype("float") /cm.sum(axis = 1)[:,np.newaxis] # normalize our confusion matrix
+    n_classes = cm.shape[0]
+
+    # Let prettify it
+    fig,ax = plt.subplots(figsize=figsize)
+    # create a matrix plot
+    cax = ax.matshow(cm,cmap = plt.cm.Blues)
+    fig.colorbar(cax)
+
+    # create classes
+    classes = False
+
+    if classes:
+        labels = classes
+    else:
+        labels = np.arange(cm.shape[0])
+
+    # Label the axes
+    ax.set(title = "Confusion Matrix",
+          xlabel = "Predicted Label",
+          ylabel = "True Label",
+          xticks = np.arange(n_classes),
+          yticks = np.arange(n_classes),
+          xticklabels = labels,
+          yticklabels = labels)
+
+    # Set threshold for different colors
+    threshold = (cm.max() + cm.min())/2
+
+    # Plot the text on each cell
+    for i,j in itertools.product(range(cm.shape[0]),range(cm.shape[1])):
+        plt.text(j,i,f"{cm[i,j]} ({cm_norm[i,j]*100:.1f}%)",
+                 horizontalalignment = 'center',
+                 color = 'white' if cm[i,j] > threshold else 'black',
+                 size = 15)
