@@ -97,3 +97,5 @@
                  size = 15)
 
 `from tensorflow.keras.datasets import fashion_mnist`
+
+`(train_data,train_labels),(test_data,test_labels) = fashion_mnist.load_data()`
