@@ -95,3 +95,5 @@
                  horizontalalignment = 'center',
                  color = 'white' if cm[i,j] > threshold else 'black',
                  size = 15)
+
+`from tensorflow.keras.datasets import fashion_mnist`
