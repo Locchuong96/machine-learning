@@ -140,3 +140,5 @@
                                  epochs =10,
                                  verbose =1,
                                  validation_data = (test_data,test_labels))
+
+`tf.math.argmax(y_preds,1)` `y_preds.argmax(axis = 1)`
