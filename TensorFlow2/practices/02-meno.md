@@ -142,3 +142,5 @@
                                  validation_data = (test_data,test_labels))
 
 `tf.math.argmax(y_preds,1)` `y_preds.argmax(axis = 1)`
+
+`images = test_data_norm[0].reshape(1,28,28)`
