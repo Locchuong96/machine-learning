@@ -98,6 +98,27 @@
 
 `from tensorflow.keras.datasets import fashion_mnist`
 
+    # set the random seed
+    tf.random.set_seed(42)
+    # build the model
+    model = tf.keras.Sequential([
+        tf.keras.layers.Flatten(input_shape = train_data[0].shape), # pass the image 28x28
+        tf.keras.layers.Dense(4,activation = 'relu'),
+        tf.keras.layers.Dense(4,activation = 'relu'),
+        tf.keras.layers.Dense(10,activation = 'softmax')
+    ])
+    # compile the model
+    model.compile(loss = tf.keras.losses.CategoricalCrossentropy(),
+                 optimizer = tf.keras.optimizers.Adam(),
+                 metrics = ['accuracy'])
+    # fit the model
+    non_norm_history = model.fit(train_data,
+                                 tf.one_hot(train_labels,depth = 10),
+                                 epochs =10,
+                                 verbose =1,
+                                 validation_data = (test_data,tf.one_hot(test_labels,depth = 10)))
+                             
+
 `(train_data,train_labels),(test_data,test_labels) = fashion_mnist.load_data()`
 
     # set the random seed
