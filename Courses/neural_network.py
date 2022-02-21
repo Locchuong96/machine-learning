@@ -1,3 +1,6 @@
+import tensorflow as tf 
+import numpy as np
+
 class NeuralNetwork:
     '''
     Neural Network with only sigmoid activation function
@@ -23,7 +26,7 @@ class NeuralNetwork:
         self.dim = 2 # the diemension of planar features
         self.layers = [self.dim] + layers # the layer of model
         self.lr = lr # the learning rate
-        self.history = 
+        self.history = {"history":[]}
         # list of W and b
         self.W = [] # the weight
         self.b = [] # the bias
@@ -61,10 +64,10 @@ class NeuralNetwork:
         Predict the labels (do the feedforward) 
         
         Arguments:
-        X -- the input (or features)
+        X -- input or features (n_samples,n_dimensions)
         
         Return:
-        X -- the labels predicted
+        X -- predicted labels (n_samples,1)
         '''
         for i in range(0,len(self.layers) - 1):
             X = sigmoid(np.dot(X,self.W[i]) + self.b[i].T)
@@ -75,7 +78,7 @@ class NeuralNetwork:
         Calculate loss between predicted labels and ground truth label
         
         Arguments:
-        X -- the input (or features)
+        X -- input or features (n_samples,n_dimensions)
         y -- the ground truth
         
         Return:
@@ -124,9 +127,24 @@ class NeuralNetwork:
             self.b[i] = self.b[i] - self.lr * db[i]
     
     def fit(self,X,y,epochs =20,verbose =1,milestone = 10):
-        self.history = []
+        '''
+        Train the model
+        
+        Arguments:
+        X         --- input or features (n_samples,n_dimensions)
+        y         --- ground truth label
+        epochs    --- the number of time you train your epoch (default = 20)
+        verbose   --- decide to print out while training or not (default = 1)
+        milestone --- print out the result if current epoch % milestone and verbose is true
+        
+        Return:
+        None
+        '''
+        self.history['history'] = [] # empty the loss history
         for epoch in range(0,epochs):
             self.fit_partial(X,y)
-            loss
-        if verbose and (epoch % milstone == 0:
+            loss = self.evaluate(X,y)
+            self.history['history'].append(loss)
+        if verbose and (epoch % milestone == 0):
+            print("Epoch {},loss {}".format(epoch,loss))
                         
