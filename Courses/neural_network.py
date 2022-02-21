@@ -145,6 +145,9 @@ class NeuralNetwork:
             self.fit_partial(X,y)
             loss = self.evaluate(X,y)
             self.history['history'].append(loss)
+            if (verbose) and (epoch % milestone == 0):
+                print("Epoch {},loss {}".format(epoch,loss))
+                        
         if verbose and (epoch % milestone == 0):
             print("Epoch {},loss {}".format(epoch,loss))
                         
