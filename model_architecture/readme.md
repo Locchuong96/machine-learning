@@ -1,8 +1,5 @@
 # model architecture
 
-# TinyVGG
-![TinyVGG](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/TinyVGG.png)
-
 # VGG-16
 ![VGG-16](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/VGG_16.png)
 
