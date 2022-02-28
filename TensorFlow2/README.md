@@ -62,3 +62,7 @@ https://github.com/mrdbourke/tensorflow-deep-learning/
 ## Confusion matrix
 
 ![confusion_matric](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/confusion_matrix.PNG)
+
+## Convolutional layer
+
+https://github.com/vdumoulin/conv_arithmetic
