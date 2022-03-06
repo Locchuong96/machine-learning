@@ -1,6 +1,9 @@
 # model architecture
 
 ## EfficentNet
+![ResNetv2](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/ResNetv2.png)
+
+## EfficentNet
 ![EfficientNet](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/efficientNet.png)
 
 # VGG-16
