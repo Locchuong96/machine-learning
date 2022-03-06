@@ -1,4 +1,7 @@
-## Department of Computer Science Ryerson
+### Paper With code
+https://paperswithcode.com/
+
+### Department of Computer Science Ryerson
 https://www.ryerson.ca/cs/
 
 ### Step by step instructions to bind OpenCV libraries with CUDA drivers to enable GPU processing on OpenCV codes.
