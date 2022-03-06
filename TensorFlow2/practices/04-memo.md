@@ -44,6 +44,8 @@
   
 `!tensorboard dev delete --experiment_id uvACDjzlRyiDM3il91fb6A`
 
-`!tensorboard --logdir ./tensorflow_hub`
-  
+    %reload_ext tensorboard
+    %load_ext tensorboard
+    %tensorboard --logdir ./tensorflow_hub/efficientnetB0/20220306-105449
+
   
