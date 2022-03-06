@@ -1,7 +1,7 @@
 # model architecture
 
 ## EfficentNet
-![ResNetv2](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/ResNetv2.png)
+![ResNetv2](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/ResNetv2.jpg)
 
 ## EfficentNet
 ![EfficientNet](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/efficientNet.png)
