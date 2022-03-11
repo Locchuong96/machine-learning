@@ -2,7 +2,7 @@
 |No|Level|Action|Status|Deadline|
 |---|---|---|---|---|
 |01|Beginner|Take a online course|☑|2021|
-|02||Watching **youtube** courses and **redo**  what you learned|❌|2022-1|
+|02||Watching **youtube** courses and **redo**  what you learned|☑|2022-1|
 |03||**Read books and write code by yourself**|❌|2022-2|
 |04||Understand the **math** problems behind the code|☑|2022-2|
 |05||Write Machine learning algorithms **without** tools, library or dependenices...|☑|2022-2|
