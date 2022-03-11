@@ -1,7 +1,7 @@
 # model architecture
 
 ## MobileNet
-![MobileNet](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/mobilenet.png)
+![MobileNet](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/mobileNet.png)
 
 ## ResNet34
 ![ResNet34](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/ResNet34.png)
