@@ -1,3 +1,6 @@
+## D2L
+https://d2l.aivivn.com/index.html
+
 ## CS231n: Convolutional Neural Networks for Visual Recognition
 https://cs231n.github.io/
 
