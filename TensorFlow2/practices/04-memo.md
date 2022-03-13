@@ -48,6 +48,8 @@
     %load_ext tensorboard
     %tensorboard --logdir ./tensorflow_hub/efficientnetB0/20220306-105449
 
+`tensorflow_dataset.load()`
+
 `tf.keras.layers.Resizing`
 
 `tf.keras.layers.Rescaling` 
