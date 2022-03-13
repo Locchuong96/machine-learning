@@ -48,4 +48,20 @@
     %load_ext tensorboard
     %tensorboard --logdir ./tensorflow_hub/efficientnetB0/20220306-105449
 
-  
+`tf.keras.layers.Resizing`
+
+`tf.keras.layers.Rescaling` 
+
+`tf.keras.layers.RandomFlip`
+
+`tf.keras.layers.RandomRotation`
+
+`tf.image.flip_left_right`
+
+`tf.image.rgb_to_grayscale`
+
+`tf.image.adjust_brightness`
+
+`tf.image.central_crop`
+
+`tf.image.stateless_random*`
