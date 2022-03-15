@@ -1,3 +1,6 @@
+## Visualize DeepLearning
+https://www.youtube.com/watch?v=3JQ3hYko51Y
+
 ## FiftyOne
 https://voxel51.com/docs/fiftyone/
 
