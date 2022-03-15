@@ -1,5 +1,16 @@
 # model architecture
 
+## Inception V3
+![Inception-V3](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/inceptionv3_architecture.png)
+
+![Inception-V3 module](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/inceptionv3.jpeg)
+
+## Inception V2
+![Inception-V2](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/GoogleNet-Inception-V2.png)
+
+## Inception V1
+![Inception-V1](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/GoogleNet-Inception-V1.png)
+
 ## MobileNet
 ![MobileNet](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/mobileNet.png)
 
