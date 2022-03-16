@@ -1,5 +1,10 @@
 # model architecture
 
+## RCNN family
+![RCNN-1](https://github.com/Locchuong96/Machine-Learning/blob/main/rcnn-family-summary.png)
+
+![RCNN-2](https://github.com/Locchuong96/Machine-Learning/blob/main/rcnn-family-summary2.png)
+
 ## Inception V3
 ![Inception-V3](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/inceptionv3_architecture.png)
 
