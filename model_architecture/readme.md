@@ -6,7 +6,7 @@
 ![RCNN-2](https://github.com/Locchuong96/Machine-Learning/blob/main/rcnn-family-summary2.png)
 
 ## Inception V3
-![Inception-V3](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/inceptionv3_architecture.png)
+![Inception-V3](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/inceptionv3.png)
 
 ![Inception-V3 module](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/inceptionv3.jpeg)
 
