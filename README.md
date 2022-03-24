@@ -1,4 +1,4 @@
-:))
+:)))
 |No|Level|Action|Status|Deadline|
 |---|---|---|---|---|
 |01|Beginner|Take a online course|☑|2021|
