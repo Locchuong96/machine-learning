@@ -290,3 +290,77 @@ def walk_through_dir(dir_path):
     '''
     for dirpath,dirnames,filenames in os.walk(dir_path):
         print(f"There are {len(dirnames)} directories and {len(filenames)} images in '{dirpath}'")
+        
+def predict_image(model,class_names,image_path,image_shape = 224,scale = False,display = False):
+    '''
+    Read jpeg image and convert to tensor
+    
+    Arguments:
+        model --- tensorflow machine learning model
+        class_names --- classes name of the dataset
+        image_path --- path to images
+        image_shape --- shape of the images default (224x224)
+        scale --- normalize image or not
+        display --- display the image and result or not
+    Return:
+        pred_label --- label predicted
+    '''
+    # read the image
+    img = tf.io.read_file(image_path)
+    # convert to tensor
+    img_tensor = tf.image.decode_jpeg(img)
+    # resize image
+    tensor = tf.image.resize(img_tensor,(image_shape,image_shape))
+    # normalize tensor if scale == True
+    if scale:
+        tensor = tensor/255.
+    # expand dims for image (1,height,width,color_channels)
+    tensor = tf.expand_dims(tensor,axis = 0)
+    # predict
+    pred_label = class_names[model.predict(tensor).argmax()]
+    # show display
+    if display:
+        plt.imshow(img_tensor)
+        plt.title(pred_label)
+        return pred_label
+    else:
+        return pred_label
+    
+def random_predict_16(dataset_dir,model,class_names,image_shape = 224,scale = False,display = False):
+    '''
+    Read jpeg image and convert to tensor
+    
+    Arguments:
+        dataset_dir --- directory of dataset
+        model --- tensorflow machine learning model
+        class_names --- classes name of the dataset
+        image_shape --- shape of the images default (224x224)
+        scale --- normalize image or not
+        display --- display the image and result or not
+    Return:
+        Display image with label predicted
+    '''
+    images = []
+    pred_labels = []
+    for label in class_names:
+        images = images + [ label + "/" + i for i in os.listdir(dataset_dir + "/" + label)]
+    image_16 = random.choices(images,k = 16)
+    plt.figure(figsize = (15,15))
+    for i,image in enumerate(image_16):
+        plt.subplot(4,4,i+1)      
+        # read the image
+        img = tf.io.read_file(dataset_dir + "/" +image)
+        # convert to tensor
+        img_tensor = tf.image.decode_jpeg(img)
+        # resize image
+        tensor = tf.image.resize(img_tensor,(image_shape,image_shape))
+        # normalize tensor if scale == True
+        if scale:
+            tensor = tensor/255.
+        # expand dims for image (1,height,width,color_channels)
+        tensor = tf.expand_dims(tensor,axis = 0)
+        # predict
+        pred_label = class_names[model.predict(tensor).argmax()]
+        plt.imshow(img_tensor)
+        plt.title(pred_label)
+    plt.tight_layout()
