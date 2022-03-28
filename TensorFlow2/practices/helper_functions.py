@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import itertools  
 import os
 import zipfile
-from sklearn.metrics import accuracy_score,precision_recall_fscore_support
+from sklearn.metrics import accuracy_score,precision_recall_fscore_support,confusion_matrix
 import datetime
 import tensorflow as tf
 
