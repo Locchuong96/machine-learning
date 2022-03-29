@@ -9,6 +9,7 @@ import os
 import zipfile
 from sklearn.metrics import accuracy_score,precision_recall_fscore_support,confusion_matrix
 import datetime
+import random
 import tensorflow as tf
 
 # Create a function to import an image and resize it to be able to be used with your model
@@ -361,7 +362,8 @@ def random_predict_16(dataset_dir,model,class_names,image_shape = 224,scale = Fa
         plt.imshow(img_tensor)
         plt.title(pred_label)
     plt.tight_layout()
-    
+
+
 def make_f1_scores(y_labels,y_preds,class_names,figsize = (12,25),savefig = True):
     '''
     Plot f1-scores of each label
