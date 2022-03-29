@@ -42,77 +42,74 @@ def load_and_prep_image(filename,image_shape = 224, scale = True):
         return img_tensor
 
 # plot confusion matrix, base on scikit-learn
-def plot_confusion_matrix(y_true,y_pred,classes= None,figsize = (10,10),
-                         text_size = 15,norm = False,savefig = True):
+# Our function needs a different name to sklearn's plot_confusion_matrix
+def make_confusion_matrix(y_true,y_pred,classes = None, figsize = (10,10), text_size = 15, norm = False,savefig = False):
     '''
-    Makes a labelled confusion matrix comparing predictions and ground truth labels
-    If classes is passed, confusion matrix will be labelled, if not, integer class values will be used
+    Make a labelled confusion matrix comparing predictions and ground truth labels
+    If the classes is passed, confusion matrix will be labelled, if not, integer class values will be used
     
     Arguments:
-        y_true (Array) --- Array of truth labels (must ne same shape as y_pred)
-        y_pred (Array) --- Array of predicted labels (must be same shape as y_true)
-        classes (Array) --- Array of classes labels (e.g string form), If 'None' integer labels are used
-        figsize (Tuple) --- Size of output figure text (default = (10,10))
-        text_size --- Size of ouput figure text (default = 15)
-        norm (Bool) --- Normalize values or not (default = False)
-        savefig (Bool) --- Save your confusion matrix figure or not (default = True)
-    Return:
-        Show a labelled confusion matrix plot comaring y_true and y_pred
-    
-    Example:
-        plot_confusion_matrix(y_true = test_labels, # ground truth test labels
-                                y_pred = y_preds, # predicted labels
-                                classes = class_name. # array of class label names
-                                figsize = (15,15),
-                                text_size = 10
-                                
-                                )
+        y_true --- Array of ground truth labels (must be same shape as y_pred).
+        y_pred --- Array of predicted labels (must be same shape as y_true).
+        classes --- Array of class labels (e.g string form) If `None`, iterger labels are used.
+        figsize --- Size of output figure (default = (10,10))
+        text_size --- The size of the xtick label (default = 15)
+        norm --- Boolean option, normalize values or not (default = False)
+        savefig --- save confusion matrix to file (default = True)
     '''
-    # Create confusion matrix
-    cm = confusion_matrix(y_true,y_pred)
-    cm_norm = cm.astype('float') / cm.sum(axis = 1)[:,np.newaxis] # normalize it
+    # Create the confusion matrix 
+    cm = confusion_matrix(y_true,y_pred) # confusion matrix
+    cm_norm = cm.astype('float')/cm.sum(axis = 1)[:,np.newaxis] # normalized confusion matrix
     n_classes = cm.shape[0] # find the number of classes we are dealing with
     
     # Plot the figure and make it pretty
     fig,ax = plt.subplots(figsize = figsize)
-    cax = ax.matshow(cm,cmap = plt.cm.Blues) # colors will represent how correct a class is, darker == better
+    cax = ax.matshow(cm, cmap = plt.cm.Blues) # display confusion matrix as figure show, colors will represent how 'correct' a class is, darker == better
     fig.colorbar(cax)
     
-    # Are there a list of classes?
+    # Are there a list of the classes
     if classes:
         labels = classes
     else:
         labels = np.arange(cm.shape[0])
-        
+    
     # Label the axes
-    ax.set(title = 'Confusion Matrix',
+    ax.set(title = "Confusion matrix",
            xlabel = "Predicted label",
            ylabel = "True label",
-           xticks = np.arange(n_classes),
-           yticks = np.arange(n_classes),
-           xticklabels = labels, # axes will labeled with class name(if they exist) or ints
-           yticklabels = labels
+           xticks = np.arange(n_classes), # create enough axis slots for each class in x axis
+           yticks = np.arange(n_classes), # create enough axis slots for each class in y axis
+           xticklabels = labels, # axes will labeled with class names (if they exist) or ints
+           yticklabels = labels # axes will labeled with class names or int
           )
     
-    # Make x-axis labels appear on bottom
-    ax.xaxis.set_label_position('bottom')
+    # Make x-axis labels appear on the bottom (default is on top)
+    ax.xaxis.set_label_position("bottom")
     ax.xaxis.tick_bottom()
-    
-    # Set the threshold for different color
-    threshold = (cm.max() + cm.min())/2
+    # Rotate xicks for readability & increase font size 
+    plt.xticks(rotation = 70, fontsize = text_size)
+    plt.yticks(fontsize = text_size)
+    # Set the threshold for different colors
+    threshold  =(cm.max() + cm.min())/2
     
     # Plot the text on each cell
     for i,j in itertools.product(range(cm.shape[0]),range(cm.shape[1])):
-        if norm:
+        if norm: # if norm is true display number and the normalized percent
             plt.text(j,i,f"{cm[i,j]} ({cm_norm[i,j]*100:.1f}%)",
                      horizontalalignment = 'center',
-                     color = 'white' if cm[i,j] > threshold else "black",
-                     size = text_size
+                     color = "white" if cm[i,j] > threshold else "black",
+                     size = int(text_size/2)
                     )
-    # Save the figure to current working directory
+        else:
+            plt.text(j,i,f"{cm[i,j]}",
+                    horizontalaligment = 'center',
+                     color = 'white' if cm[i,j] > threshold else "black",
+                     size = int(text_size/2)
+                    )
+    # Save the figure to the current working directory
     if savefig:
-        fig.savefig('confusion_matrix.png')    
-
+        fig.savefig("confusion_matrix.png")
+        
 # Make function to predict on images and plot them (works with multi-class)
 def pred_and_plot(model,filename,class_names):
     '''
