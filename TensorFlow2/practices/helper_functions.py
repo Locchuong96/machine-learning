@@ -404,3 +404,5 @@ def make_f1_scores(y_labels,y_preds,class_names,figsize = (12,25),savefig = True
                 ha = "center",
                 va = "bottom"
                )
+    if savefig:
+        plt.savefig("f1-scores.png")
