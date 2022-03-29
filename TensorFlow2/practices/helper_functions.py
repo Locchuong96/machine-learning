@@ -361,3 +361,46 @@ def random_predict_16(dataset_dir,model,class_names,image_shape = 224,scale = Fa
         plt.imshow(img_tensor)
         plt.title(pred_label)
     plt.tight_layout()
+    
+def make_f1_scores(y_labels,y_preds,class_names,figsize = (12,25),savefig = True):
+    '''
+    Plot f1-scores of each label
+    
+    Arguments:
+        y_labels --- the ground truth labels
+        y_preds --- the predicted labels
+        class_names --- all labels of predicted from the model
+        figisze --- the figsize of model, default = (12,25)
+        savefig --- Save figure option
+    
+    Return None
+    '''
+    # get the dictinary of the classification report, sklearn 
+    classification_report_dict = classification_report(y_labels,pred_classes,output_dict = True)
+    # create empty dictionary
+    class_f1_scores = {}
+    # look though classification report items
+    for k,v in classification_report_dict.items():
+        if k == "accuracy": # stop once we get to accuracy values
+            break
+        else:
+            # Append class names and f1-scores to new dictionary
+            class_f1_scores[class_names[int(k)]] = v['f1-score']
+    # Turn f1-scores into dataframe for visualization
+    f1_scores = pd.DataFrame({"class_name":list(class_f1_scores.keys()),
+                             "f1-score": list(class_f1_scores.values())
+                             }).sort_values("f1-score")
+    fig,ax = plt.subplots(figsize = (12,25))
+    scores = ax.barh(range(len(f1_scores)),f1_scores['f1-score'].values)
+    ax.set_yticks(range(len(f1_scores))) #  create enough axis slot for axis
+    ax.set_yticklabels(list(f1_scores['class_name'])) # get the label intoe
+    ax.set_title("F1-Scores for 10 Different Classes")
+    # ax.invert_yaxis() # reverse the order
+    # attach a text label above each bar displaying its height (it's value)
+    for score in scores:
+        width = score.get_width() # also the f1-curves values
+        ax.text(0.03 + width,score.get_y() + score.get_height()/1.5,
+                f"{width:.2f}",
+                ha = "center",
+                va = "bottom"
+               )
