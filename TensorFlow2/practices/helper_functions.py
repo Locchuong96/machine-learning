@@ -363,7 +363,6 @@ def random_predict_16(dataset_dir,model,class_names,image_shape = 224,scale = Fa
         plt.title(pred_label)
     plt.tight_layout()
 
-
 def make_f1_scores(y_labels,y_preds,class_names,figsize = (12,25),savefig = True):
     '''
     Plot f1-scores of each label
@@ -408,3 +407,59 @@ def make_f1_scores(y_labels,y_preds,class_names,figsize = (12,25),savefig = True
                )
     if savefig:
         plt.savefig("f1-scores.png")
+
+def random_predict_k(dataset_dir,model,class_names,k,figsize = (20,20),image_shape = 224,scale = False,display = False):
+    '''
+    Read jpeg image and convert to tensor
+    
+    Arguments:
+        dataset_dir --- directory of dataset
+        model --- tensorflow machine learning model
+        class_names --- classes name of the dataset
+        k --- the element in each row and each columns
+        figsize --- the figsize of figure default (20,20)
+        image_shape --- shape of the images default (224x224)
+        scale --- normalize image or not
+        display --- display the image and result or not
+        
+    Return:
+        Display image with label predicted
+    '''
+    # Check k
+    assert (k == 3) or (k == 4) or (k == 5),"Function only support k = 3,4,5"
+    # Set the figure
+    plt.figure(figsize= figsize)
+    # for loop, random choice -> preprocess -> predict -> Show the label
+    for i in range(k*k):
+        # Choose a random image from a random class
+        class_name = random.choice(class_names)
+        filename = random.choice(os.listdir(dataset_dir + "/" + class_name))
+        filepath = test_dir + "/" + class_name + "/" + filename
+        
+        # load image and preprocessing
+        img = tf.io.read_file(filepath)
+        # convert to tensor
+        tensor = tf.image.decode_jpeg(img)
+        # resize
+        tensor = tf.image.resize(tensor,(image_shape,image_shape))
+        # normalize if scale option is True
+        if scale:
+            tensor = tensor/255.
+        # expand dims
+        tensor = tf.expand_dims(tensor,axis = 0)
+        # predict
+        pred_probs = model.predict(tensor) #  shape (1,101)
+        # get argmax
+        i_max = pred_probs.argmax()
+        # get probility
+        prob = pred_probs[0][i_max]
+        # get predicted label
+        predicted_label = class_names[i_max]
+        # plot the value
+        plt.subplot(k,k,i+1)
+        plt.imshow(tensor[0]/255.)
+        if predicted_label == class_name:
+            plt.title(f"actual: {class_name} \n pred: {predicted_label} \n prob: {prob:.2f}",color ='g')
+        else:
+            plt.title(f"actual: {class_name} \n pred: {predicted_label} \n prob: {prob:.2f}",color ='r')
+        plt.tight_layout()
