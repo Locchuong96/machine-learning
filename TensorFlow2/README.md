@@ -75,3 +75,7 @@ https://github.com/mrdbourke/tensorflow-deep-learning/
 ## Convolutional layer
 
 https://github.com/vdumoulin/conv_arithmetic
+
+## The Functional API
+
+https://www.tensorflow.org/guide/keras/functional
