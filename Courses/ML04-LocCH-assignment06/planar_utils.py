@@ -3,6 +3,7 @@ import numpy as np
 import sklearn
 import sklearn.datasets
 import sklearn.linear_model
+import pylab as pl
 
 def plot_decision_boundary(model, X, y):
     # Set min and max values and give it some padding
