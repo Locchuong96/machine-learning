@@ -50,7 +50,7 @@ class MySVM(object):
         # find the solution
         solution = cvxopt.solvers.qp(P,q,G,h,A,b)
         alphas= np.array(solution['x'])
-        alphas_sv = (alphas > self.epsilon).reshape((-1,)) # (n_samples,1)
+        alphas_sv = (alphas > self.epsilon).reshape((-1,)) # a list of True False
         ind = np.arange(len(alphas)).reshape(-1,1)[alphas_sv] # find the index of alpha_i > epsilon
         a = alphas[alphas_sv].reshape((-1,)) # alphas > 0
         sv =X[alphas_sv] # support vectors
@@ -62,14 +62,14 @@ class MySVM(object):
         count = 0
         real_sv = []
         for i in range(len(a)):
-            if self.C != None and a[i] > self.C - self.epsilon:
+            if self.C != None and a[i] > self.C + self.epsilon: # violate the condition a_i <= C
                 continue
-            else:
+            else: # if C is non meaning non soft margin or a_i <= C
                 real_sv.append(sv[i])
             b += sv_y[i]
-            b -= np.sum(a * sv_y * K[ind[i]].reshape((-1,1))[alphas_sv.reshape((-1,1))])
-            count +=1
-        b /= count # len(a)
+            b -= np.sum(a * sv_y * K[ind[i]].reshape((-1,1))[alphas_sv.reshape((-1,1))]) # choice the a_i*y_i*K(x,x) corectspond with alpha_sv
+            count +=1 # count how many time you accumulate b beacause b just only take 1 time to calculate
+        b /= count # divice count to get b
         if self.C:
             self.real_sv = np.array(real_sv)
         print("%d support vectors out of %d points" % (len(real_sv),n_samples))
