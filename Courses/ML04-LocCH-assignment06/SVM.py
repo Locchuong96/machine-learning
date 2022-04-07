@@ -38,11 +38,11 @@ class MySVM(object):
         b = cvxopt.matrix(0.0)
         
         if self.C is None:
-            G = cvxopt.matrix(np.diag(np.ones(n_samples)*-1))
-            h = cvxopt.matrix(np.zeros(n_samples))
+            G = cvxopt.matrix(np.diag(np.ones(n_samples)*-1)) # -a_i <=0
+            h = cvxopt.matrix(np.zeros(n_samples))  
         else:
-            tmp1 = np.diag(np.ones(n_samples)*-1)
-            tmp2 = np.identity(n_samples)
+            tmp1 = np.diag(np.ones(n_samples)*-1) # -a_i <=0
+            tmp2 = np.identity(n_samples) # a_i < C
             G = cvxopt.matrix(np.vstack((tmp1,tmp2)),(n_samples *2,n_samples))
             tmp1 = np.zeros(n_samples)
             tmp2 = np.ones(n_samples) * self.C
