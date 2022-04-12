@@ -1,6 +1,6 @@
 # Standford University
 
-##tiepvupsu
+## tiepvupsu
 https://github.com/tiepvupsu
 
 ## greerviau
