@@ -1,5 +1,8 @@
 # model architecture
 
+## Unet
+![Unet](https://github.com/Locchuong96/Machine-Learning/blob/main/Unet.jpeg)
+
 ## RCNN family
 ![RCNN-1](https://github.com/Locchuong96/Machine-Learning/blob/main/model_architecture/rcnn-family-summary2.png)
 
