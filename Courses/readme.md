@@ -16,3 +16,6 @@ https://analyticsarora.com/k-means-for-beginners-how-to-build-from-scratch-in-py
 
 ## Record course
 https://www.youtube.com/watch?v=0P_ADX2cMdo&list=PL03dlYelZoZCpCHn1vb1OlepNg5VNcoZm&index=15
+
+## Andrew Ng course
+https://www.youtube.com/c/MakingTARS/videos
