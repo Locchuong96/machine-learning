@@ -2,6 +2,9 @@
 
 https://www.math-linux.com/latex-26/faq/latex-faq/article/latex-derivatives-limits-sums-products-and-integrals
 
+## Draw NN
+http://alexlenail.me/NN-SVG/LeNet.html
+
 ## OneHot and Ordinal
 
 https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/
