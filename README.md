@@ -1,4 +1,4 @@
-![banner](./picture/banner.png)
+![banner](/picture/banner.PNG)
 
 |No|Level|Action|Status|Deadline|
 |---|---|---|---|---|
