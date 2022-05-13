@@ -1,4 +1,5 @@
-![banner](/picture/banner.png)
+![banner](./picture/banner.png)
+
 |No|Level|Action|Status|Deadline|
 |---|---|---|---|---|
 |01|Beginner|Take a online course|☑|2021|
