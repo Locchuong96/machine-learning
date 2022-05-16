@@ -1,5 +1,7 @@
 ![banner](/picture/banner.PNG)
 
+### Achievement
+
 |No|Level|Action|Status|Deadline|
 |---|---|---|---|---|
 |01|Beginner|Take a online course|☑|2021|
@@ -28,3 +30,11 @@
 |24||Teaching ML course|||
 |25||Complete your math skill|||
 |26|Professional|Do research|||
+
+### Mottos:
+
+```
+When you stuck, sometime you should accept and move on first, may be the next step will give you the hint to solve the problems
+```
+
+
