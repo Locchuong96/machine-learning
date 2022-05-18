@@ -12,3 +12,7 @@ Living in this society without any crime is a successful
 ```
 You can debug by give the mark in your code then print it out, it will show you the workflow and make sure anything you need is already setup
 ```
+```
+First: Have a RIGHT attitude
+Second: Keep it!
+```
