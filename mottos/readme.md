@@ -16,3 +16,9 @@ You can debug by give the mark in your code then print it out, it will show you 
 First: Have a RIGHT attitude
 Second: Keep it!
 ```
+```
+If you have to understand a calculation or an algorithm
+First: make sure you read the damn math RIGHT
+Second: try to understand it in your way
+Third: try to understand it in the truly way
+```
