@@ -1,4 +1,3 @@
-### Mottos:
 17.5.22
 ```
 When you stuck, sometime you should accept and move on first, may be the next step will give you the hint to solve the problems
