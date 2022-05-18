@@ -22,3 +22,6 @@ First: make sure you read the damn math RIGHT
 Second: try to understand it in your way
 Third: try to understand it in the truly way
 ```
+```
+Everyone will leave you ,but math. That is excatly literal meaning
+```
