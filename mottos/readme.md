@@ -25,3 +25,7 @@ Third: try to understand it in the truly way
 ```
 Everyone will leave you ,but math. That is excatly literal meaning
 ```
+### 19.5.22
+```
+They say: "A picture is worth a thousand words", but 3 words "I LOVE YOU" is more meaning than a picture of heart
+```
