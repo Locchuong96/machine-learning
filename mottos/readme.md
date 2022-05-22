@@ -30,3 +30,8 @@ Everyone will leave you ,but math. That is excatly literal meaning
 ```
 They say: "A picture is worth a thousand words", but 3 words "I LOVE YOU" is more meaning than a picture of heart
 ```
+
+### 22.5.22
+```
+Baby does not know what they need, baby just know what they want
+```
