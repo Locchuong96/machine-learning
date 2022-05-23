@@ -35,3 +35,10 @@ They say: "A picture is worth a thousand words", but 3 words "I LOVE YOU" is mor
 ```
 Baby does not know what they need, baby just know what they want
 ```
+
+### 23.5.22
+```
+Follow in the wrong way is stupid,
+Know that way is wrong but keep following even more stupid
+All my life i just looking for someone like that
+```
