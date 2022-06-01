@@ -42,3 +42,12 @@ Follow in the wrong way is stupid,
 Know that way is wrong but keep following even more stupid
 All my life i just looking for someone like that
 ```
+### 1.6.22
+
+```
+It seem like people do the morality thing as a usual, not because they aware that is right or wrong
+```
+
+```
+Fight, war is always the common way to solve the problems, and also the final way to solve the problems
+```
