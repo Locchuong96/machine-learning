@@ -51,3 +51,7 @@ It seem like people do the morality thing as a usual, not because they aware tha
 ```
 Fight, war is always the common way to solve the problems, and also the final way to solve the problems
 ```
+### 3.6.22
+```
+Remember is finite, forget is infinite
+```
