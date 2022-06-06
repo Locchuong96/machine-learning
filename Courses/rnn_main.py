@@ -1,7 +1,7 @@
 import math 
 import numpy as np 
 import matplotlib.pyplot as plt
-from rnn_models import GRU
+from rnn_models import GRU,RNN
 
 # hyperparamter
 hidden_dim = 100

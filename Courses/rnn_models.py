@@ -11,6 +11,149 @@ def sigmoid(x):
 def tanh(x):
     return (np.exp(x)-np.exp(-x))/(np.exp(x)+np.exp(-x))
 
+class RNN():
+    def __init__(self,hidden_dim=100,seq_len=50,input_dim = 1,output_dim = 1,seed = 3454):
+        self.hidden_dim = hidden_dim
+        self.seq_len = seq_len
+        self.input_dim = input_dim
+        self.output_dim  = output_dim
+        self.U = np.random.uniform(0,1,(hidden_dim,seq_len)) # (100,50)
+        self.W = np.random.uniform(0,1,(hidden_dim,hidden_dim)) # (100,100)
+        self.V = np.random.uniform(0,1,(output_dim,hidden_dim)) # (1,100)
+        self.bh = np.random.uniform(0,1,(hidden_dim,1))
+        self.by = np.random.uniform(0,1,(output_dim,1))
+        
+    def forward_pass(self,x):
+        # init a list of dict to storage
+        layers = []
+        h_prev = np.zeros((hidden_dim,1))
+        for t in range(x.shape[0]):
+            new_input = np.zeros(x.shape)
+            new_input[t] = x[t]
+            z = self.U @ new_input + self.W @ h_prev + self.bh
+            h = tanh(z)
+            y_hat = V @ h + self.by
+            layers.append({'h':h,'h_prev':h_prev})
+            h_prev = h
+        return layers,y_hat
+        
+    def calc_loss(self,X,Y):
+        loss = 0.0
+        m = Y.shape[0]
+        for i in range(m):
+            x,y = X[i],Y[i]
+            _,y_hat = self.forward_pass(x)
+            loss += (y-y_hat)**2
+        loss = 1/(2*m) * np.float(loss)
+        return loss
+
+    def predict(self,X):
+        preds = []
+        m = X.shape[0] # number of samples
+        for i in range(m):
+            x = X[i]
+            _,y_hat = self.forward_pass(x)
+            preds.append(y_hat)
+        # convert to numpy array
+        preds = np.array(preds)
+        preds = np.squeeze(preds)
+        return preds
+    
+    def calc_prev_d(self,h,d,W):
+        '''
+        Calculate the next previous term d after the first term, this function support for bptt function
+        Ex: d2 = d3*W*(1-h**2)
+        '''
+        d_sum = (1-h**2)*d
+        return W.T @ d_sum
+    
+    def bptt(self,x,y,layers,y_hat,bptt_truncate,min_val=-10,max_val=10):
+        # differentials at current prediction
+        dW = np.zeros(self.W.shape)
+        dU = np.zeros(self.U.shape)
+        dV = np.zeros(self.V.shape)
+        db_h = np.zeros(self.bh.shape)
+        db_y = np.zeros(self.by.shape)
+        # differentials each timestep
+        dW_t = np.zeros(self.W.shape)
+        dU_t = np.zeros(self.U.shape)
+        dV_t = np.zeros(self.V.shape)
+        # diffeentials each backpropagation truncate
+        dW_i = np.zeros(self.W.shape)
+        dU_i = np.zeros(self.U.shape)
+        dV_i = np.zeros(self.V.shape)
+        # dLdy
+        dLdy = y - y_hat
+        # dLdh
+        dLdh = self.V.T @ dLdy
+        # dLdby
+        db_y = dLdy
+        for t in range(x.shape[0]):
+            # dLdV
+            dV_t = dLdy @ np.transpose(layers[t]['h'])
+            # first term d = (y-y_hat)V
+            d_t = dLdh * (1 - layers[t]['h']**2)
+            # dLdbh
+            db_h += d_t
+            for _ in range(t,max(-1,bptt_truncate-1),-1):
+                new_input = np.zeros(x.shape)
+                new_input[_] = x[_]
+                dU_i = d_t @ new_input.T
+                dW_i = d_t @ layers[_]['h_prev'].T
+                dU_t += dU_i
+                dW_t += dW_i
+                # update term d
+                d_t = self.calc_prev_d(layers[_]['h_prev'],d_t,self.W)
+            dV += dV_t
+            dU += dU_t
+            dW += dW_t
+            # take care of possible exploding gradients
+            if dU.max() > max_val:
+                dU[dU > max_val] = max_val
+            if dV.max() > max_val:
+                dV[dV > max_val] = max_val
+            if dW.max() > max_val:
+                dW[dW > max_val] = max_val
+
+            if dU.min() < min_val:
+                dU[dU < min_val] = min_val
+            if dV.min() < min_val:
+                dV[dV < min_val] = min_val
+            if dW.min() < min_val:
+                dW[dW < min_val] = min_val
+        return dU,dV,dW,db_h,db_y
+            
+    def train(self,X,Y,epochs,learning_rate,bptt_truncate,min_val,max_val,predict = True,verbose = True):
+        # storage lost
+        losses = []
+        for epoch in range(epochs):
+            loss = self.calc_loss(X,Y)
+            losses.append(loss)
+            title = f'epoch: {epoch} loss: {loss}'
+            if verbose: print(title)
+            
+            for i in range(X.shape[0]):
+                x,y = X[i],Y[i]
+                # forward pass
+                layers,y_hat = self.forward_pass(x)
+                dU,dV,dW,db_h,db_y = self.bptt(x,y,layers,y_hat,bptt_truncate,min_val,max_val)
+                # SGD
+                self.U += learning_rate * dU
+                self.W += learning_rate * dW
+                self.V += learning_rate * dV
+                self.bh += learning_rate * db_h
+                self.by += learning_rate * db_y
+                
+            if predict:
+                preds = self.predict(X)
+                plt.plot(preds,label = 'pred')
+                plt.plot(Y,label = 'ground-truth')
+                plt.title(title)
+                plt.legend()
+                plt.show()
+                    
+        return losses
+        
 class GRU():
     def __init__(self,hidden_dim=100,seq_len=50,input_dim = 1,output_dim = 1):
         self.hidden_dim = hidden_dim 
