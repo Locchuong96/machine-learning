@@ -11,7 +11,6 @@ def sigmoid(x):
 def tanh(x):
     return (np.exp(x)-np.exp(-x))/(np.exp(x)+np.exp(-x))
 
-
 class GRU():
     def __init__(self,hidden_dim=100,seq_len=50,input_dim = 1,output_dim = 1):
         self.hidden_dim = hidden_dim 
@@ -61,9 +60,9 @@ class GRU():
         loss = 0.0
         n_samples = Y.shape[0] # number of sample
         for i in range(n_samples):
-        	y = Y[i]
-        	_,y_hat = self.forward_pass(X[i])
-        	loss += (y - y_hat)**2
+            y = Y[i]
+            _,y_hat = self.forward_pass(X[i])
+            loss += (y - y_hat)**2
         loss = 1/(2*n_samples)*np.float(loss)
         return loss
     
@@ -133,86 +132,86 @@ class GRU():
             # dLdb_r
             db_r += dLdr
             
+            #take care for exploding gradients
+            if dV.max() > max_val:
+                dV[dV > max_val] = max_val
+            if dV.min() < min_val:
+                dV[dV < min_val] = min_val
+
+            if db_y.max() > max_val:
+                db_y[db_y > max_val] = max_val
+            if db_y.min() < min_val:
+                db_y[db_y < min_val] = min_val
+
+            if dU_h.max() > max_val:
+                dU_h[dU_h > max_val] = max_val
+            if dU_h.min() < min_val:
+                dU_h[dU_h < min_val] = min_val
+
+            if dW_h.max() > max_val:
+                dW_h[dW_h > max_val] = max_val
+            if dW_h.min() < min_val:
+                dW_h[dW_h < min_val] = min_val
+
+            if db_h.max() > max_val:
+                db_h[db_h > max_val] = max_val
+            if db_h.min() < min_val:
+                db_h[db_h < min_val] = min_val
+
+            if dU_u.max() > max_val:
+                dU_u[dU_u > max_val] = max_val
+            if dU_u.min() < min_val:
+                dU_u[dU_u < min_val] = min_val
+
+            if dW_u.max() > max_val:
+                dW_u[dW_u > max_val] = max_val
+            if dW_u.min() < min_val:
+                dW_u[dW_u < min_val] = min_val
+
+            if db_u.max() > max_val:
+                db_u[db_u > max_val] = max_val
+            if db_u.min() < min_val:
+                db_u[db_u < min_val] = min_val
+
+            if dU_r.max() > max_val:
+                dU_r[dU_r > max_val] = max_val
+            if dU_r.min() < min_val:
+                dU_r[dU_r < min_val] = min_val
+
+            if dW_r.max() > max_val:
+                dW_r[dW_r > max_val] = max_val
+            if dW_r.min() < min_val:
+                dW_r[dW_r < min_val] = min_val
+
+            if db_r.max() > max_val:
+                db_r[db_r > max_val] = max_val
+            if db_r.min() < min_val:
+                db_r[db_r < min_val] = min_val
+            
         db_y = db_y/t
         db_h = db_h/t
         db_u = db_u/t
         db_r = db_r/t
         
-        #take care for exploding gradients
-        if dV.max() > max_val:
-            dV[dV > max_val] = max_val
-        if dV.min() < min_val:
-            dV[dV < min_val] = min_val
-        
-        if db_y.max() > max_val:
-            db_y[db_y > max_val] = max_val
-        if db_y.min() < min_val:
-            db_y[db_y < min_val] = min_val
-            
-        if dU_h.max() > max_val:
-            dU_h[dU_h > max_val] = max_val
-        if dU_h.min() < min_val:
-            dU_h[dU_h < min_val] = min_val
-            
-        if dW_h.max() > max_val:
-            dW_h[dW_h > max_val] = max_val
-        if dW_h.min() < min_val:
-            dW_h[dW_h < min_val] = min_val
-
-        if db_h.max() > max_val:
-            db_h[db_h > max_val] = max_val
-        if db_h.min() < min_val:
-            db_h[db_h < min_val] = min_val
-        
-        if dU_u.max() > max_val:
-            dU_u[dU_u > max_val] = max_val
-        if dU_u.min() < min_val:
-            dU_u[dU_u < min_val] = min_val
-            
-        if dW_u.max() > max_val:
-            dW_u[dW_u > max_val] = max_val
-        if dW_u.min() < min_val:
-            dW_u[dW_u < min_val] = min_val
-
-        if db_u.max() > max_val:
-            db_u[db_u > max_val] = max_val
-        if db_u.min() < min_val:
-            db_u[db_u < min_val] = min_val
-            
-        if dU_r.max() > max_val:
-            dU_r[dU_r > max_val] = max_val
-        if dU_r.min() < min_val:
-            dU_r[dU_r < min_val] = min_val
-            
-        if dW_r.max() > max_val:
-            dW_r[dW_r > max_val] = max_val
-        if dW_r.min() < min_val:
-            dW_r[dW_r < min_val] = min_val
-
-        if db_r.max() > max_val:
-            db_r[db_r > max_val] = max_val
-        if db_r.min() < min_val:
-            db_r[db_r < min_val] = min_val
-            
-        
         return dU_u,dW_u,db_u,dU_r,dW_r,db_r,dU_h,dW_h,db_h,dV,db_y
     
-    def train(self,X,Y,epochs,learning_rate,predict = True,verbose = True):
+    def train(self,X,Y,epochs,learning_rate,min_val,max_val,predict = True,verbose = True):
         # storge loss
         losses = []
         for epoch in range(epochs):
             
             loss = self.calc_loss(X,Y)
             losses.append(loss)
-            if verbose: print(f'epoch: {epoch} loss: {loss}')
+            title = f'epoch: {epoch} loss: {loss}' 
+            if verbose: print(title)
             
             for i in range(X.shape[0]):
                 x = X[i]
                 y = Y[i]
                 # forward pass
-                layers,y_hat = layers,y_hat = self.forward_pass(x)
+                layers,y_hat = self.forward_pass(x)
                 # backward pass
-                dU_u,dW_u,db_u,dU_r,dW_r,db_r,dU_h,dW_h,db_h,dV,db_y = self.bptt(x,y,layers,y_hat)
+                dU_u,dW_u,db_u,dU_r,dW_r,db_r,dU_h,dW_h,db_h,dV,db_y = self.bptt(x,y,layers,y_hat,min_val = min_val,max_val = max_val)
                 # gradient descent
                 self.U_u += dU_u*learning_rate
                 self.W_u += dW_u*learning_rate
@@ -230,7 +229,7 @@ class GRU():
                 preds = self.predict(X)
                 plt.plot(preds,label = 'pred')
                 plt.plot(Y,label = 'ground-truth')
-                plt.title('fater training')
+                plt.title(title)
                 plt.legend()
                 plt.show()
                     

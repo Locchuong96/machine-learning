@@ -65,7 +65,7 @@ if __name__ == "__main__":
 	node = GRU()
 
 	# train
-	losses = node.train(X,Y,epochs=epochs,learning_rate=1e-4)
+	losses = node.train(X,Y,epochs=epochs,learning_rate=1e-4,min_val = min_val,max_val = max_val,predict = False)
 
 	# predict
 	preds = node.predict(X)
