@@ -1,3 +1,4 @@
+import tqdm
 import math 
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -132,7 +133,7 @@ class RNN():
             title = f'epoch: {epoch} loss: {loss}'
             if verbose: print(title)
             
-            for i in range(X.shape[0]):
+            for i in tqdm.tqdm(range(X.shape[0])):
                 x,y = X[i],Y[i]
                 # forward pass
                 layers,y_hat = self.forward_pass(x)
@@ -153,7 +154,7 @@ class RNN():
                 plt.show()
                     
         return losses
-        
+
 class GRU():
     def __init__(self,hidden_dim=100,seq_len=50,input_dim = 1,output_dim = 1):
         self.hidden_dim = hidden_dim 
@@ -348,7 +349,7 @@ class GRU():
             title = f'epoch: {epoch} loss: {loss}' 
             if verbose: print(title)
             
-            for i in range(X.shape[0]):
+            for i in tqdm.tqdm(range(X.shape[0])):
                 x = X[i]
                 y = Y[i]
                 # forward pass

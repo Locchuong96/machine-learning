@@ -71,7 +71,7 @@ if __name__ == "__main__":
 	preds = node.predict(X)
 	plt.plot(preds,label = 'pred')
 	plt.plot(Y,label = 'ground-truth')
-	plt.title('fater training')
+	plt.title('predict on training set')
 	plt.legend()
 
 	#plt.savefig('predict.png')
