@@ -55,3 +55,8 @@ Fight, war is always the common way to solve the problems, and also the final wa
 ```
 Remember is finite, forget is infinite
 ```
+
+### 9.6.22
+```
+Stay active to fight, but staying active is also a fight
+```
