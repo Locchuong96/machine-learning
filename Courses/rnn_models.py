@@ -79,7 +79,7 @@ class RNN():
         dW_t = np.zeros(self.W.shape)
         dU_t = np.zeros(self.U.shape)
         dV_t = np.zeros(self.V.shape)
-        # diffeentials each backpropagation truncate
+        # differentials each backpropagation truncate
         dW_i = np.zeros(self.W.shape)
         dU_i = np.zeros(self.U.shape)
         dV_i = np.zeros(self.V.shape)
@@ -154,7 +154,7 @@ class RNN():
                 plt.show()
                     
         return losses
-
+        
 class GRU():
     def __init__(self,hidden_dim=100,seq_len=50,input_dim = 1,output_dim = 1):
         self.hidden_dim = hidden_dim 
@@ -377,4 +377,160 @@ class GRU():
                 plt.legend()
                 plt.show()
                     
+        return losses
+
+class LSTM():
+    def __init__(self,seq_len = 50,hidden_dim = 100,input_dim = 1,output_dim = 1):
+        self.seq_len = seq_len
+        self.hidden_dim = hidden_dim
+        self.input_dim = input_dim
+        self.output_dim = output_dim
+        # init matrices
+        # input gate
+        self.W_i = np.zeros((hidden_dim,hidden_dim + seq_len))
+        self.b_i = np.zeros((hidden_dim,1))
+        # forget gate
+        self.W_f = np.zeros((hidden_dim,hidden_dim + seq_len))
+        self.b_f = np.zeros((hidden_dim,1))
+        # output gate
+        self.W_o = np.zeros((hidden_dim,hidden_dim + seq_len))
+        self.b_o = np.zeros((hidden_dim,1))
+        # candidate cell state
+        self.W_c = np.zeros((hidden_dim,hidden_dim + seq_len))
+        self.b_c = np.zeros((hidden_dim,1))
+        # predict state
+        self.V = np.zeros((output_dim,hidden_dim))
+        self.b_y = np.zeros((1,1))
+        
+    def forward_pass(self,x):
+        layers = []
+        # init matrices
+        h_prev = np.zeros((self.hidden_dim,1))
+        C_prev = np.zeros((self.hidden_dim,1))
+        for t in range(x.shape[0]):
+            # new_input
+            x_t = np.zeros(x.shape)
+            x_t[t] = x[t]
+            # z
+            z = np.row_stack((h_prev,x_t))
+            # forget state
+            f_t = sigmoid(self.W_f @ z + self.b_f)
+            # input state
+            i_t = sigmoid(self.W_i @ z + self.b_i)
+            # output state
+            o_t = sigmoid(self.W_o @ z + self.b_o)
+            # candidate cell state
+            C_til = tanh(self.W_c @ z + self.b_c)
+            # cell state
+            C_t = f_t * C_prev + i_t * C_til
+            # hidden state
+            h_t = o_t * tanh(C_t)
+            # predict output
+            y_hat = self.V @ h_t + self.b_y
+            layers.append({'z':z,'h_prev':h_prev,'h':h_t,'C_prev':C_prev,'C_til':C_til,'C':C_t,'o':o_t,'i':i_t,'f':f_t})
+            # update previous cell state and hidden state
+            h_prev = h_t
+            C_prev = C_t
+        return layers,y_hat
+    
+    def calc_loss(self,X,Y):
+        loss = 0.0
+        m = Y.shape[0]
+        for i in range(m):
+            x,y = X[i],Y[i]
+            _,y_hat = self.forward_pass(x)
+            loss += (y-y_hat)**2
+        loss = 1/(2*m) * np.float(loss)
+        return loss
+
+    def predict(self,X):
+        preds = []
+        m = X.shape[0] # number of samples
+        for i in range(m):
+            x = X[i]
+            _,y_hat = self.forward_pass(x)
+            preds.append(y_hat)
+        # convert to numpy array
+        preds = np.array(preds)
+        preds = np.squeeze(preds)
+        return preds
+    
+    def bptt(self,x,y,layers,y_hat,dLdh_next,dLdC_next,min_val=-10,max_val=10):
+        # backward pass
+        # in the begining matrices
+        dLdV = np.zeros(self.V.shape)
+        dLdb_y = np.zeros(self.b_y.shape)
+        dLdW_c = np.zeros(self.W_c.shape)
+        dLdb_c = np.zeros(self.b_c.shape)
+        dLdW_o = np.zeros(self.W_o.shape)
+        dLdb_o = np.zeros(self.b_o.shape)
+        dLdW_i = np.zeros(self.W_i.shape)
+        dLdb_i = np.zeros(self.b_i.shape)
+        dLdW_f = np.zeros(self.W_f.shape)
+        dLdb_f = np.zeros(self.b_f.shape)
+        # [1] dLdy
+        dLdy = y - y_hat
+        for t in reversed(range(x.shape[0])):
+            # [2] dLdh
+            dLdh = dLdh_next + self.V.T @ dLdy # (100,1) + (100,1)x(1,1)
+            # [3] dLdC
+            dLdC = dLdC_next + dLdh * layers[t]['o'] * (1-tanh(layers[t]['C'])**2)
+            # [4] dLdC_til
+            dLdC_til = dLdC * layers[t]['i']
+            # [5] dLdo
+            dLdo = dLdh * tanh(layers[t]['C'])
+            # [6] dLdi
+            dLdi = dLdC * C_til
+            # [7] dLdi
+            dLdf = dLdC * C_prev
+            # [8] dLdz
+            dLdz = W_f.T @ (layers[t]['f']*(1-layers[t]['f'])*dLdf) + W_i.T @ (layers[t]['i']*(1-layers[t]['i'])*dLdi) +\
+            W_c.T @ ((1-C_til**2)*dLdC_til) + W_o.T @ (layers[t]['o']*(1-layers[t]['o'])*dLdo)
+            # update dLdC_next and dLdh_next
+            dLdC_next = layers[t]['f'] * dLdC
+            dLdh_next = dLdz[:100]
+            # calculate model parameter gradient
+            dLdV += dLdy @ layers[t]['h'].T
+            dLdb_y += dLdy
+            dLdW_c += dLdC_til @ z.T
+            dLdb_c += dLdC_til
+            dLdW_o += dLdo @ layers[t]['z'].T
+            dLdb_o += dLdo
+            dLdW_i += dLdi @ layers[t]['z'].T
+            dLdb_i += dLdi
+            dLdW_f += dLdf @ layers[t]['z'].T
+            dLdb_f += dLdf
+        
+        return dLdC_next, dLdh_next,dLdV,dLdb_y,dLdW_c, dLdb_c, dLdW_o, dLdb_o, dLdW_i, dLdb_i, dLdW_f,dLdb_f
+    
+    def train (self,X,Y,epochs,learning_rate,min_val,max_val,verbose = True):
+        # storage lost
+        losses = []
+        for epoch in range(epochs):
+            loss = self.calc_loss(X,Y)
+            losses.append(loss)
+            title = f'epoch: {epoch} loss: {loss}'
+            if verbose: print(title)
+                
+            dLdC_next = np.zeros((hidden_dim,1))
+            dLdh_next = np.zeros((hidden_dim,1))
+            
+            for i in tqdm.tqdm(range(X.shape[0])):
+                x,y = X[i],Y[i]
+                # forward pass
+                layers,y_hat = self.forward_pass(x)
+                # backward pass
+                dLdC_next, dLdh_next,dLdV,dLdb_y,dLdW_c, dLdb_c, dLdW_o, dLdb_o, dLdW_i, dLdb_i, dLdW_f,dLdb_f = self.bptt(x,y,layers,y_hat,dLdh_next,dLdC_next,min_val=min_val,max_val=max_val)
+                # gradient descent
+                self.V -= learning_rate * dLdV
+                self.b_y -= learning_rate * dLdb_y
+                self.W_c -= learning_rate * dLdW_c
+                self.b_c -= learning_rate * dLdb_c
+                self.W_o -= learning_rate * dLdW_o
+                self.b_o -= learning_rate * dLdb_o
+                self.W_i -= learning_rate * dLdW_i
+                self.b_i -= learning_rate * dLdb_i
+                self.W_f -= learning_rate * dLdW_f
+                self.b_f -= learning_rate * dLdb_f
+        
         return losses
