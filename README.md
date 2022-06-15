@@ -4,7 +4,7 @@
 
 ### Data source
 
-[datahub](https://datahub.io/) [kaggle](https://www.kaggle.com/)
+[datahub](https://datahub.io/) [kaggle](https://www.kaggle.com/) [academictorrents](https://academictorrents.com/)
 
 ### Roadmap
 
