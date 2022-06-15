@@ -434,7 +434,7 @@ class GRU2():
         # dLdy
         dLdy = y - y_hat # (1,1)
         # dLdh
-        dLdh = dLdh_next + self.V.T @ dLdy   # (100,1)x(1,1) = (100,1)
+        dLdh = self.V.T @ dLdy   # (100,1)x(1,1) = (100,1) dLdh_next + self.V.T @ dLdy
         # dV
         dV = dLdy @ np.transpose(layers[t]['h']) # (1,1)x(1,100) = (1,100)
         # db_y
@@ -591,24 +591,23 @@ class GRU2():
                 dV += dV
                 db_y += db_y
 
-
             db_y = db_y/X.shape[0]
             db_h = db_h/X.shape[0]
             db_u = db_u/X.shape[0]
             db_r = db_r/X.shape[0]
 
             # gradient descent
-            self.U_u -= dU_u*learning_rate
-            self.W_u -= dW_u*learning_rate
-            self.b_u -= db_u*learning_rate
-            self.U_r -= dU_r*learning_rate
-            self.W_r -= dW_r*learning_rate
-            self.b_r -= db_r*learning_rate
-            self.U_h -= dU_h*learning_rate
-            self.W_h -= dW_h*learning_rate
-            self.b_h -= db_h*learning_rate
-            self.V -= dV*learning_rate
-            self.b_y -= db_y*learning_rate
+            self.U_u += dU_u*learning_rate
+            self.W_u += dW_u*learning_rate
+            self.b_u += db_u*learning_rate
+            self.U_r += dU_r*learning_rate
+            self.W_r += dW_r*learning_rate
+            self.b_r += db_r*learning_rate
+            self.U_h += dU_h*learning_rate
+            self.W_h += dW_h*learning_rate
+            self.b_h += db_h*learning_rate
+            self.V += dV*learning_rate
+            self.b_y += db_y*learning_rate
                     
         return losses
 
@@ -772,7 +771,7 @@ class LSTM():
             dLdC_next = np.zeros((self.hidden_dim,1))
             dLdh_next = np.zeros((self.hidden_dim,1))
             
-            for t in range(Y.shape[0]):
+            for t in reversed(range(X.shape[0])):
                 # x,y
                 x,y = X[t],Y[t]
                 # z
