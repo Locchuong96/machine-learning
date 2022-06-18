@@ -60,3 +60,8 @@ Remember is finite, forget is infinite
 ```
 Stay active to fight, but staying active is also a fight
 ```
+
+### 18.6.22
+```
+Human love showing their intelligent, so if your work can make you show your intelligent, that is a good job
+```
