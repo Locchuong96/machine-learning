@@ -69,3 +69,7 @@ Human love showing their intelligent, so if your work can make you show your int
 ```
 Idea -> UML -> How -> Code 
 ```
+### 20.6.22
+```
+Risk or reason?
+```
