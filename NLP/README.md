@@ -20,16 +20,16 @@ https://github.com/nickvdw/word2vec-from-scratch/blob/master/word2vec.ipynb
 
 https://github.com/nickvdw/word2vec-from-scratch/blob/master/word2vec.ipynb
 
-https://www.tensorflow.org/text/guide/word_embeddings
+[tensorflow-word_embeddings](https://www.tensorflow.org/text/guide/word_embeddings)
 
-https://www.tensorflow.org/tutorials/text/word2vec
+[tensorflow-word2vec](https://www.tensorflow.org/tutorials/text/word2vec)
 
-https://www.tensorflow.org/text/tutorials/text_classification_rnn
+[tensorflow-text_classification_rnn](https://www.tensorflow.org/text/tutorials/text_classification_rnn)
 
-https://www.tensorflow.org/text/tutorials/classify_text_with_bert
+[tensorflow-classify_text_with_bert](https://www.tensorflow.org/text/tutorials/classify_text_with_bert)
 
-https://www.tensorflow.org/text/tutorials/bert_glue
+[tensorflow-bert_glue](https://www.tensorflow.org/text/tutorials/bert_glue)
 
-https://www.tensorflow.org/text/tutorials/nmt_with_attention
+[tensorflow-nmt_with_attention](https://www.tensorflow.org/text/tutorials/nmt_with_attention)
 
-https://www.tensorflow.org/tutorials/text/image_captioning
+[tensorflow-image_captioning](https://www.tensorflow.org/tutorials/text/image_captioning)
