@@ -1,6 +1,6 @@
 # References
 
-** word2vec **
+**word2vec**
 
 [word2vec math](https://leimao.github.io/article/Word2Vec-Classic/)
 
@@ -12,17 +12,17 @@
 
 [word2vec](https://github.com/nickvdw/word2vec-from-scratch/blob/master/word2vec.ipynb)
 
-** bi-RNN and deep-RNN **
+**bi-RNN and deep-RNN**
 
 [bi-RNN](https://github.com/sarikamohan08/Bi-Directional-RNN/blob/main/Bi_RNN.ipynb)
 
-** seq2seq and attetion **
+**seq2seq and attetion**
 
 [Attention-is-all-you-need](https://github.com/ChuongLoc/Attention-is-all-you-need)
 
 [seq2seq and attetion](https://github.com/ChuongLoc/Sequence-to-Sequence-and-Attention-from-scratch-using-Tensorflow/blob/master/Seq2Seq%20and%20Attention.ipynb)
 
-** tensorflow nlp course **
+**tensorflow nlp course**
 
 [08_introduction_to_nlp_in_tensorflow](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/08_introduction_to_nlp_in_tensorflow.ipynb)
 
@@ -46,7 +46,7 @@
 
 [tensorflow-image_captioning](https://www.tensorflow.org/tutorials/text/image_captioning)
 
-** application **
+**application**
 
 [Neural_Machine_Translation](https://github.com/ChuongLoc/Neural_Machine_Translation)
 
