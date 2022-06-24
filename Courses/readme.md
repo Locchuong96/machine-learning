@@ -1,5 +1,7 @@
 [LateX](]https://www.math-linux.com/latex-26/faq/latex-faq/article/latex-derivatives-limits-sums-products-and-integrals)
 
+[keras blog](https://blog.keras.io/)
+
 [Draw neural network architechture](http://alexlenail.me/NN-SVG/LeNet.html)
 
 [Draw diagram](https://www.diagrameditor.com/)
