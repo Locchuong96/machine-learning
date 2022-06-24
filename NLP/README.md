@@ -18,7 +18,7 @@ https://github.com/sarikamohan08/Bi-Directional-RNN/blob/main/Bi_RNN.ipynb
 
 https://github.com/nickvdw/word2vec-from-scratch/blob/master/word2vec.ipynb
 
-word2vec
+https://github.com/nickvdw/word2vec-from-scratch/blob/master/word2vec.ipynb
 
 https://www.tensorflow.org/text/guide/word_embeddings
 
