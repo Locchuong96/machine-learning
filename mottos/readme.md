@@ -73,3 +73,8 @@ Idea -> UML -> How -> Code
 ```
 Risk or reason?
 ```
+### 28.6.22
+
+```
+lies is always start from the beginning.
+```
