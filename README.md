@@ -2,7 +2,7 @@
     
       [keyword] + [magic word]
       
-`tutorial`,`explaination`
+`tutorial`,`explaination`,`paper`
 
 ### Tool & platform
 
