@@ -27,18 +27,19 @@
 |09||Embark *Kaggle* and do some|❌|2022-3|
 |10||Get a **certificate** from **tensorflow, coursera**... or any famous Organizations|❌|2022-3|
 |11||Take some famous course like [CS329S](https://stanford-cs329s.github.io/) or [CS231n](https://cs231n.github.io/),...|❌|2022-4|
-|12||Attend some events,seminars or webinars |🙋|2022|
-|13||Enroll in open source ML projects for non-profit|⭐|2022-4|
-|14||Get a part-time or freelance jobs and get money|💰|2022-4|
-|15||Get a full-time job and do ML for living|🏆||
-|16||Embark many **competitions** and **win**|||
-|17||**Understand** ML repositories from some of famous guys|||
-|18||Build a model with just it's work flow|||
-|19||Write your own ML repo like some of pro guy|||
-|20||Read and understand ML papers|||
-|21|Advanced|Build a ML application from **idea**|||
-|22||Write a paper|||
-|23||Write a book|||
-|24||Teaching ML course|||
-|25||Complete your math skill|||
-|26|Professional|Do research|||
+|12||Be profesional on *Kaggle* |❌|2022-9|
+|13||Attend some events,seminars or webinars |🙋|2022|
+|14||Enroll in open source ML projects for non-profit|⭐|2022-4|
+|15||Get a part-time or freelance jobs and get money|💰|2022-4|
+|16||Get a full-time job and do ML for living|🏆||
+|17||Embark many **competitions** and **win**|||
+|18||**Understand** ML repositories from some of famous guys|||
+|19||Build a model with just it's work flow|||
+|20||Write your own ML repo like some of pro guy|||
+|21||Read and understand ML papers|||
+|22|Advanced|Build a ML application from **idea**|||
+|23||Write a paper|||
+|24||Write a book|||
+|25||Teaching ML course|||
+|26||Complete your math skill|||
+|27|Professional|Do research|||
