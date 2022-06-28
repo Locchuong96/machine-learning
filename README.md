@@ -2,7 +2,7 @@
     
       [keyword] + [magic word]
       
-'tutorial','explaination'
+`tutorial`,`explaination`
 
 ### Tool & platform
 
@@ -42,6 +42,3 @@
 |24||Teaching ML course|||
 |25||Complete your math skill|||
 |26|Professional|Do research|||
-
-
-
