@@ -1,8 +1,14 @@
+## Magic words
+    
+      [keyword] + [magic word]
+      
+'tutorial','explaination'
+
 ### Tool & platform
 
 ![banner](/picture/banner.PNG)
 
-### Data source
+### Data sources
 
 [datahub](https://datahub.io/) | [kaggle](https://www.kaggle.com/) | [academictorrents](https://academictorrents.com/)
 
