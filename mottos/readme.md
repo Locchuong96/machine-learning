@@ -67,8 +67,9 @@ Human love showing their intelligent, so if your work can make you show your int
 ```
 
 ```
-Idea -> UML -> How -> Code 
+Idea --> How --> UML --> Code 
 ```
+
 ### 20.6.22
 ```
 Risk or reason?
@@ -76,5 +77,10 @@ Risk or reason?
 ### 28.6.22
 
 ```
-lies is always start from the beginning.
+Lies is always start from the beginning.
+```
+
+### 29.6.22
+```
+People today love lying to themseft
 ```
