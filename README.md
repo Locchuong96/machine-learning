@@ -2,7 +2,7 @@
     
       [keyword] + [magic word]
       
-`tutorial`,`explaination`,`from scratch`,`backpropagation`,`paper`,`repo`
+`tutorial`,`explaination`,`from scratch`,`backpropagation`,`paper`,`repo`,`build from source`
 
 ### Tool & platform
 
