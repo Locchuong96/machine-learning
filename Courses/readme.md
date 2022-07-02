@@ -4,6 +4,9 @@
 
 [Improving-DeepNeural-Networks](https://datascience-enthusiast.com/DL/Improving-DeepNeural-Networks-Initialization.html)
 
+[bike_prediction_nn](https://datascience-enthusiast.com/DL/bike_prediction_nn.html)
+______
+
 [LateX](https://www.math-linux.com/latex-26/faq/latex-faq/article/latex-derivatives-limits-sums-products-and-integrals)
 
 [keras blog](https://blog.keras.io/)
