@@ -1,6 +1,11 @@
 [Embedding words projector](http://projector.tensorflow.org/) | [datascience-enthusiast](https://datascience-enthusiast.com/DL/dlindex.html)
 
 # References
+[Building_a_Recurrent_Neural_Network-Step_by_Step_v1](https://datascience-enthusiast.com/DL/Building_a_Recurrent_Neural_Network-Step_by_Step_v1.html)
+
+[Neural_machine_translation_with_attention](https://datascience-enthusiast.com/DL/Neural_machine_translation_with_attention.html)
+
+[Emojify](https://datascience-enthusiast.com/DL/Emojify.html)
 
 **word2vec**
 
