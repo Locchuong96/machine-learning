@@ -1,4 +1,10 @@
-[LateX](]https://www.math-linux.com/latex-26/faq/latex-faq/article/latex-derivatives-limits-sums-products-and-integrals)
+[Building-your-Deep-Neural-Network-Step-by-Step](https://datascience-enthusiast.com/DL/Building-your-Deep-Neural-Network-Step-by-Step.html)
+
+[Convolution_model_Step_by_Stepv2](https://datascience-enthusiast.com/DL/Convolution_model_Step_by_Stepv2.html)
+
+[Improving-DeepNeural-Networks](https://datascience-enthusiast.com/DL/Improving-DeepNeural-Networks-Initialization.html)
+
+[LateX](https://www.math-linux.com/latex-26/faq/latex-faq/article/latex-derivatives-limits-sums-products-and-integrals)
 
 [keras blog](https://blog.keras.io/)
 
