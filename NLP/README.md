@@ -7,6 +7,8 @@
 
 [Emojify](https://datascience-enthusiast.com/DL/Emojify.html)
 
+[Dinosaurus_Island_Character_level_language_model](https://datascience-enthusiast.com/DL/Dinosaurus_Island_Character_level_language_model.html)
+
 **word2vec**
 
 [1] [word2vec math](https://leimao.github.io/article/Word2Vec-Classic/)
