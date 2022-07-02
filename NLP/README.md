@@ -1,4 +1,4 @@
-[Embedding words projector](http://projector.tensorflow.org/)
+[Embedding words projector](http://projector.tensorflow.org/) | [datascience-enthusiast](https://datascience-enthusiast.com/DL/dlindex.html)
 
 # References
 
