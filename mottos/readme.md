@@ -84,3 +84,13 @@ Lies is always start from the beginning.
 ```
 People today love lying to themseft
 ```
+
+## 7.7.22
+
+If you want learn to code, that is a long way to go, we don't have to learning for a year to join the work, just maybe `30h` with this formula `[2% a computer] + [4% a good way to learn] + [4% a good document] + [90% practice]`. but after that, there are still `so manything to learn` and `don't forget what you learned`, there are 2 biggest problems. i got my way to learn, so i better write it out before i forgot it again
+
+  FIRST: learn from video tutorial, they are usually free and enough, they can give you more visualization, actions, step-by-step, it can be slowly and basicly, and you have to make sure it can give you enough to make money 
+  SECOND: find the ebooks, read the contents, summaries,recomments first, then choice the best ebook, skim the basic thing you knew, find something deeper and new
+  THIRD: go to some professional place as blog,github and read the other code (you have to get through these pain)
+
+
