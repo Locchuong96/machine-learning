@@ -85,7 +85,7 @@ Lies is always start from the beginning.
 People today love lying to themseft
 ```
 
-## 7.7.22
+### 7.7.22
 
 If you want learn to code, that is a long way to go, we don't have to learning for a year to join the work, just maybe `30h` with this formula `[2% a computer] + [4% a good way to learn] + [4% a good document] + [90% practice]`. but after that, there are still `so manything to learn` and `don't forget what you learned`, there are 2 biggest problems. i got my way to learn, so i better write it out before i forgot it again
 
@@ -93,4 +93,6 @@ If you want learn to code, that is a long way to go, we don't have to learning f
     SECOND: find the ebooks, read the contents, summaries,recomments first, then choice the best ebook, skim the basic thing you knew, find something deeper and new
     THIRD: go to some professional place as blog,github and read the other code (you have to get through these pain)
 
+### 9.7.22
 
+    Life give you pressures, what you get stronger, they give greater pressures
