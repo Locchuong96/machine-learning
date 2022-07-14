@@ -96,3 +96,7 @@ If you want learn to code, that is a long way to go, we don't have to learning f
 ### 9.7.22
 
     Life give you pressures, what you get stronger, they give greater pressures
+    
+### 14.7.22
+
+    We will get everything in a moment, and lose everything in the moment
