@@ -100,3 +100,7 @@ If you want learn to code, that is a long way to go, we don't have to learning f
 ### 14.7.22
 
     We will get everything in a moment, and lose everything in the moment
+
+### 19.7.22
+
+    Let the luck work for you.
