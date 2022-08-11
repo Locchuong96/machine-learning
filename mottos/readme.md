@@ -104,3 +104,7 @@ If you want learn to code, that is a long way to go, we don't have to learning f
 ### 19.7.22
 
     Let the luck work for you.
+    
+### 11.8.22
+
+    If you can solve the problem right now. at least be dare to look at it, sometime the answer will grow in your mind
