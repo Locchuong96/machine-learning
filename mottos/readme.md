@@ -108,3 +108,7 @@ If you want learn to code, that is a long way to go, we don't have to learning f
 ### 11.8.22
 
     If you can solve the problem right now. at least be dare to look at it, sometime the answer will grow in your mind
+    
+### 11.9.22
+
+    when every slowdown an uncertainty, let try to make a breakthrough, be  more active and more confidence.
