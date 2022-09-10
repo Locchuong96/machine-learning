@@ -111,4 +111,4 @@ If you want learn to code, that is a long way to go, we don't have to learning f
     
 ### 11.9.22
 
-    when every slowdown an uncertainty, let try to make a breakthrough, be  more active and more confidence.
+    When every slowdown an uncertainty, let try to make a breakthrough, be  more active and more confidence.
