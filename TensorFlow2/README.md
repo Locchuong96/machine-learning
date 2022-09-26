@@ -1,26 +1,18 @@
-## TensorFlow tutorial
-https://www.tensorflow.org/hub/tutorials
+[TensorFlow tutorial](https://www.tensorflow.org/hub/tutorials)
 
-## Visualize DeepLearning
-https://www.youtube.com/watch?v=3JQ3hYko51Y
+[Visualize DeepLearning](https://www.youtube.com/watch?v=3JQ3hYko51Y)
 
-## FiftyOne
-https://voxel51.com/docs/fiftyone/
+[FiftyOne](https://voxel51.com/docs/fiftyone/)
 
-## COCO dataset
-https://cocodataset.org/#home
+[COCO dataset](https://cocodataset.org/#home)
 
-## ImageNet
-https://www.image-net.org/index.php
+[ImageNet](https://www.image-net.org/index.php)
 
-## Food-101
-https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/
+[Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)
 
-## TensorFlow-Hub
-https://tfhub.dev/
+[TensorFlow-Hub](https://tfhub.dev/)
 
-# source 
-https://github.com/mrdbourke/tensorflow-deep-learning/
+[source](https://github.com/mrdbourke/tensorflow-deep-learning/)
 
 ## install tensorlow on window
 
