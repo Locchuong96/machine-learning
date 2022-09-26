@@ -71,3 +71,8 @@ https://github.com/vdumoulin/conv_arithmetic
 ## The Functional API
 
 https://www.tensorflow.org/guide/keras/functional
+
+## Tensorflow-course
+[Part1](https://www.youtube.com/watch?v=tpCFfeUEGs8)
+
+[Part2](https://www.youtube.com/watch?v=ZUKz4125WNI)
