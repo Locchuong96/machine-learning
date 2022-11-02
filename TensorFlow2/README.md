@@ -31,19 +31,21 @@ read docstring in jupyter notebook `shift` + `tab`
 ### ML typycal
 ![ML_typycal](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-MLP_modern.PNG)
 
-## Keras API
+### Keras API
 ![keras_api](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-Keras_API.PNG)
 
-## tensorflow API
+### tensorflow API
 ![tensorflow_api](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/01-TensorFLow_API.PNG)
 
-## Evaluate classification
+### Evaluate classification
 
 ![evaluate](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/classification_evaluation_full.PNG)
 
-## Confusion matrix
+### Confusion matrix
 
 ![confusion_matric](https://github.com/Locchuong96/Machine-Learning/blob/main/TensorFlow2/images/confusion_matrix.PNG)
+
+### References
 
 [TensorFlow tutorial](https://www.tensorflow.org/hub/tutorials)
 
