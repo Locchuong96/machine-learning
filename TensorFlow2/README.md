@@ -1,3 +1,10 @@
+# How to pass tensorflow exam
+
+[Tensorflow Page](https://www.tensorflow.org/certificate)
+
+[TF_Certificate_Candidate_Handbook](https://www.tensorflow.org/static/extras/cert/TF_Certificate_Candidate_Handbook.pdf)
+______
+
 [TensorFlow tutorial](https://www.tensorflow.org/hub/tutorials)
 
 [Visualize DeepLearning](https://www.youtube.com/watch?v=3JQ3hYko51Y)
