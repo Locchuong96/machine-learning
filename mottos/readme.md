@@ -112,3 +112,7 @@ If you want learn to code, that is a long way to go, we don't have to learning f
 ### 11.9.22
 
     When every slowdown an uncertainty, let try to make a breakthrough, be  more active and more confidence.
+    
+### 22.11.22
+
+    The usages may be does not matter, the idea may be does not matter. The price is matter
