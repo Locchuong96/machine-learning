@@ -15,3 +15,5 @@
 - [Data modeling](./lec7)
 
 - [Power BI Dashboard](./lec8)
+
+[download powerbi](https://zenatti.net/2019/07/16/power-bi-june-2019/)
