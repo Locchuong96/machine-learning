@@ -24,3 +24,15 @@ https://zenatti.net/2019/07/16/power-bi-june-2019/
 [Importing from other data source](./lec7)
 
 [Import vs direct query](./lec8)
+
+# Data modeling
+
+# Visualizing data
+
+# Building dashboard
+
+# Reporting best practice
+
+# Sharing and publishing
+
+# Styling and design
