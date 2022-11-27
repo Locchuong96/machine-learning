@@ -7,7 +7,7 @@
 https://zenatti.net/2019/07/16/power-bi-june-2019/
 
 
-# 1: Preparing data
+# Preparing data
 
 [Data source](./lec1)
 
