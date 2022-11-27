@@ -10,10 +10,17 @@ https://zenatti.net/2019/07/16/power-bi-june-2019/
 # 1: Preparing data
 
 [Data source](./lec1)
+
 [Calender table](./lec2)
+
 [Power query best practice](./lec3)
+
 [Power query editor](./lec4)
+
 [Unpivot](./lec5)
+
 [Combine actuals and plan](./lec6)
+
 [Importing from other data source](./lec7)
+
 [Import vs direct query](./lec8)
