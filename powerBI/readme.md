@@ -44,6 +44,8 @@ https://zenatti.net/2019/07/16/power-bi-june-2019/
 
 # Visualizing data
 
+[Hướng dẫn về Power BI cho người mới bắt đầu - Kiến thức cơ bản và hơn thế nữa](https://www.youtube.com/watch?v=AuYzsfXKkbM)
+
 # Building dashboard
 
 [Sales Dashboard in Excel | Dynamic Excel Dashboard for Sales](https://www.youtube.com/watch?v=bjLIA1vSqGs)
