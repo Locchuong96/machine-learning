@@ -28,6 +28,18 @@ https://zenatti.net/2019/07/16/power-bi-june-2019/
 
 # Data modeling
 
+[Data Modeling](./lec9)
+
+[Star schema](./lec9)
+
+[Basic Measure](./lec10)
+
+[Hierachies](./lec11)
+
+[Auto relationship](./lec12)
+
+[Target vs Actual](./lec13)
+
 # Visualizing data
 
 # Building dashboard
