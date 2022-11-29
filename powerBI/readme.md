@@ -46,6 +46,20 @@ https://zenatti.net/2019/07/16/power-bi-june-2019/
 
 # Building dashboard
 
+[Sales Dashboard in Excel | Dynamic Excel Dashboard for Sales](https://www.youtube.com/watch?v=bjLIA1vSqGs)
+
+[Sales Dashboard in Power BI | Power BI Dashboard](https://www.youtube.com/watch?v=CGgXHsD19Ek)
+
+[Sales Distribution Dashboard in Power BI | Power BI Dashboard](https://www.youtube.com/watch?v=C-Cvaqmchq0)
+
+[Sales Distribution Dashboard Preview | Excel Dashboard | Power BI Dashboard](https://www.youtube.com/watch?v=TPeV1bt6Zhc)
+
+[Customer Analytics Dashboard in Power BI | MS Forms | Google Forms | Power BI Dashboard](https://www.youtube.com/watch?v=0mwToWeybS0)
+
+[How to create an Excel Dashboard with Power Query and Power Pivot? | Customer Analytics Tutorial 01](https://www.youtube.com/watch?v=J-m0HePOxOY)
+
+[How to create an Excel Dashboard with Power Query and Power Pivot? | Customer Analytics Tutorial 02](https://www.youtube.com/watch?v=PkTPec30ttA)
+
 # Reporting best practice
 
 # Sharing and publishing
