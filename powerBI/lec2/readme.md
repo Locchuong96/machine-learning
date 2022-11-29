@@ -44,3 +44,16 @@ Modify new column `WeekDay2 = FORMAT(WEEKDAY(Calendar[Date]),"DDDD")`
 
 CALENDARAUTO function can not find a base column of DateTime type in the model.
 https://debug.to/899/calendarauto-function-can-not-find-a-base-column-of-datetime-type-in-the-model
+
+![cap](./cap.PNG)
+![cap2](./cap2.PNG)
+![cap3](./cap3.PNG)
+![cap4](./cap4.PNG)
+![cap5](./cap5.PNG)
+![cap6](./cap6.PNG)
+![cap7](./cap7.PNG)
+![cap8](./cap8.PNG)
+![cap9](./cap9.PNG)
+![cap10](./cap10.PNG)
+![cap11](./cap11.PNG)
+![cap12](./cap12.PNG)
