@@ -31,14 +31,14 @@ Our data start from 1 Jul 2018 to 30 Jul 2019, when you apply `Dax`
 + `CALENDAAUTO()`: will return from `1 Jan 2018` to `31 Dec 2019`
 + `CALENDAAUTO(3)`: will return from `1 Mar 2018` to `29 Feb 2019`
 
-  Calendar = ADDCOLUMNS ( CALENDARAUTO (),
-  "Year", YEAR([Date]),
-  "MonthNo", MONTH([Date]),
-  "Month", FORMAT([Date],"mmm"),
-  "Quarter", FORMAT([Date],"\QQ"),
-  "YearMonth", FORMAT([Date],"YYYY-MM"),
-  "WeekdayNo", WEEKDAY([Date],2), //1-Sun..Sat, 2-Mon..Sat
-  "Weekday", FORMAT([Date],"ddd") )
+      Calendar = ADDCOLUMNS ( CALENDARAUTO (),
+      "Year", YEAR([Date]),
+      "MonthNo", MONTH([Date]),
+      "Month", FORMAT([Date],"mmm"),
+      "Quarter", FORMAT([Date],"\QQ"),
+      "YearMonth", FORMAT([Date],"YYYY-MM"),
+      "WeekdayNo", WEEKDAY([Date],2), //1-Sun..Sat, 2-Mon..Sat
+      "Weekday", FORMAT([Date],"ddd") )
 
 Modify new column `WeekDay2 = FORMAT(WEEKDAY(Calendar[Date]),"DDDD")`
 
