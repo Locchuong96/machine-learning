@@ -6,6 +6,8 @@
 
 [datalink](https://drive.google.com/drive/folders/1gg3uhIeLK2BOkZrSMxdMVdgmLSeW7N3z)
 
+[Power BI Tutorial for Beginners - Basics and Beyond](https://www.youtube.com/watch?v=AuYzsfXKkbM)
+
 [dashboard powerBI](https://www.youtube.com/watch?v=CGgXHsD19Ek)
 
 https://hocmotchutthoi.blogspot.com/2021/10/khoa-hoc-power-bi-1-chuan-bi-data.html
@@ -45,8 +47,6 @@ https://zenatti.net/2019/07/16/power-bi-june-2019/
 [Target vs Actual](./lec13)
 
 # Visualizing data
-
-[Power BI Tutorial for Beginners - Basics and Beyond](https://www.youtube.com/watch?v=AuYzsfXKkbM)
 
 # Building dashboard
 
