@@ -44,7 +44,7 @@ https://zenatti.net/2019/07/16/power-bi-june-2019/
 
 # Visualizing data
 
-[Hướng dẫn về Power BI cho người mới bắt đầu - Kiến thức cơ bản và hơn thế nữa](https://www.youtube.com/watch?v=AuYzsfXKkbM)
+[Power BI Tutorial for Beginners - Basics and Beyond](https://www.youtube.com/watch?v=AuYzsfXKkbM)
 
 # Building dashboard
 
