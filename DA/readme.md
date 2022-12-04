@@ -1,6 +1,10 @@
 # data analysis course
 
-[youtube course](https://www.youtube.com/watch?v=GPVsHOlRBBI&list=PLsM05n4rlXWSBgG144ruSaAaB7GI2r5Ea)
+[Data analysis course](https://www.youtube.com/watch?v=GPVsHOlRBBI&list=PLsM05n4rlXWSBgG144ruSaAaB7GI2r5Ea)
+
+[Tensorflow quick start](https://www.youtube.com/watch?v=5Ym-dOS9ssA&list=PLhhyoLH6IjfxVOdVC1P1L5z5azs0XjMsb)
+
+[Pytorch](https://www.youtube.com/watch?v=2S1dgHpqCdk&list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz)
 
 # course reference
 
