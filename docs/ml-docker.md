@@ -1,83 +1,83 @@
 # install pip3 (on Ubuntu)
 
-    pip3 install python3-pip
+        pip3 install python3-pip
 
 # install docker
 
 - Check your suitable docker version
 
-    $ apt cache madison docker-ce
+        $ apt cache madison docker-ce
 
 - Remove any Docker files that are running in the system, using the following command
 
-    $ sudo apt-get remove docker docker-engine docker.io
+        $ sudo apt-get remove docker docker-engine docker.io
 
 - Check if the system is up-to-date using the following command
 
-    $ sudo apt-get update
+        $ sudo apt-get update
 
 - Install Docker using the following command
 
-    $ sudo apt install docker.io
+        $ sudo apt install docker.io
 
 - Install all the dependency packages using the following command (You’ll then get a prompt asking you to choose between y/n - choose y)
 
-    $ sudo snap install docker
+        $ sudo snap install docker
 
 - Before testing Docker, check the version installed using the following command
 
-    $ docker version
-    $ docker --version
+        $ docker version
+        $ docker --version
 
 - Pull an image from the Docker hub using the following command
 
-    $ sudo docker images
+        $ sudo docker images
 
 # working with docker
 
 - load image tar archive file
 
-  $ docker load -i <path/to/docker/file.tar>
+        $ docker load -i <path/to/docker/file.tar>
 
 - build container from image
 
-  $ docker run -t --name <docker container name> -v$PWD/your/folder:/<container-folder> <your image>:<tag>
+        $ docker run -t --name <docker container name> -v$PWD/your/folder:/<container-folder> <your image>:<tag>
 
 - start docker image
 
-  $ docker start <docker container name>
+        $ docker start <docker container name>
 
 - jump in docker container
 
-  $ docker exec -it <your container name> bash
+        $ docker exec -it <your container name> bash
 
 - run the docker container with specific command outside the container
 
-  $ docker exec -it <your container name> <command>
+        $ docker exec -it <your container name> <command>
 
 - check all docker image and docker container
 
-    $ docker system df
+        $ docker system df
 
 - delete all docker images
 
-    $ sudo docker system prune -a
+        $ sudo docker system prune -a
 
 - check all docker container
 
-  $ docker container ps -a
+        $ docker container ps -a
 
 - stop docker container
 
-  $ docker stop <your container name>|<your container id>
+        $ docker stop <your container name>|<your container id>
 
 - remove docker container
 
-  $ docker rm <your container name>|<your container id>
+        $ docker rm <your container name>|<your container id>
 
 - delete docker image
 
-  $ docker rmi <your image name>:<tag>
+        $ docker rmi <your image name>:<tag>
 
 # build and run GPU accelerated Docker containers
 
