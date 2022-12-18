@@ -81,6 +81,10 @@
 
 # build and run GPU accelerated Docker containers
 
+[user-guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/user-guide.html)
+
+[Enabling GPU access with Compose](https://docs.docker.com/compose/gpu-support/)
+
 [github](https://github.com/NVIDIA/nvidia-docker)
 
 [NVIDIA Driver Installation](https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html)
