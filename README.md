@@ -29,10 +29,10 @@
 |---|---|---|---|---|
 |01|Beginner|Take a online course|☑|2021|
 |02||Watching **youtube** courses and **redo**  what you learned|☑|2022-1|
-|03||**Read books and write code by yourself**|❌|2022-2|
+|03||**Read books and write code by yourself**|☑|2022-2|
 |04||Understand the **math** problems behind the code|☑|2022-2|
 |05||Write Machine learning algorithms **without** tools, library or dependenices...|☑|2022-2|
-|06||Learn from **many** sources (ex: videos,books,documents,...)|❌|2022-2|
+|06||Learn from **many** sources (ex: videos,books,documents,...)|☑|2022-2|
 |07||Learn and read official docs **[tensorflow](https://www.tensorflow.org/api_docs/python/tf),[keras](https://keras.io/api/),[pytorch](https://pytorch.org/docs/stable/index.html#)...**|❌|2022-2|
 |08|Intermediate|Use what you got with **real datasets**|❌|2022-3|
 |09||Embark *Kaggle* and do some|❌|2022-3|
