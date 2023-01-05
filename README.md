@@ -34,8 +34,8 @@
 |05||Write Machine learning algorithms **without** tools, library or dependenices...|☑|2022-2|
 |06||Learn from **many** sources (ex: videos,books,documents,...)|☑|2022-2|
 |07||Learn and read official docs **[tensorflow](https://www.tensorflow.org/api_docs/python/tf),[keras](https://keras.io/api/),[pytorch](https://pytorch.org/docs/stable/index.html#)...**|❌|2022-2|
-|08|Intermediate|Use what you got with **real datasets**|❌|2022-3|
-|09||Embark *Kaggle* and do some|❌|2022-3|
+|08|Intermediate|Use what you got with **real datasets**|☑|2022-3|
+|09||Embark *Kaggle* and do some|☑|2022-3|
 |10||Get a **certificate** from **tensorflow, coursera**... or any famous Organizations|❌|2022-3|
 |11||Take some famous course like [CS329S](https://stanford-cs329s.github.io/) or [CS231n](https://cs231n.github.io/),...|❌|2022-4|
 |12||Be profesional on *Kaggle* |❌|2022-9|
