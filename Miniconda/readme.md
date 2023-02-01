@@ -16,31 +16,35 @@
 
 `bin/conda init`
 
-**5/ check miniconda virtual enviroment**
+**5/ config miniconda**
+
+`conda config --set auto_activate_base false`
+
+**6/ check miniconda virtual enviroment**
 
 `bin/conda env list`
 
-**6/ create virtual enviroment**
+**7/ create virtual enviroment**
 
 `bin/conda create py38 python=3.8`
 
-**6/ activate virtual environment**
+**8/ activate virtual environment**
 
 `source activate <yourenv>` or `bin/conda activate <yourenv>`
 
-**7/ activate virtual environment**
+**9/ activate virtual environment**
 
 `source deactivate <yourenv>` or `bin/conda deactivate`
 
-**8/ install new package in virtual enviroment**
+**10/ install new package in virtual enviroment**
 
 `bin/conda install -n <package> <yourenv>` or `pip install <package>`
 
-**9/ remove virtual enviroment**
+**11/ remove virtual enviroment**
 
-`bin/conda remove -n <yourenv> -all`
+`bin/conda remove -n <yourenv> --all` or 
 
-**10/ uninstall conda**
+**12/ uninstall conda**
 `sudo rm -rf <your_miniconda>`
 
 **Note**
