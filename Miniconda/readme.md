@@ -40,4 +40,7 @@
 
 `bin/conda remove -n <yourenv> -all`
 
+**10/ uninstall conda**
+`sudo rm -rf <your_miniconda>`
+
 [download](https://repo.anaconda.com/miniconda/)
