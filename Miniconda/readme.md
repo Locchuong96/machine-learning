@@ -34,7 +34,7 @@
 
 **8/ install new package in virtual enviroment**
 
-`bin/conda install -n <yourenv> <package>` or `pip install <package>`
+`bin/conda install -n <package> <yourenv>` or `pip install <package>`
 
 **9/ remove virtual enviroment**
 
