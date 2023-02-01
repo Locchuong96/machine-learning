@@ -44,6 +44,7 @@
 `sudo rm -rf <your_miniconda>`
 
 **Note**
+
 related to `profile`,`bash_profile`,`bash_login`
 
 [download](https://repo.anaconda.com/miniconda/)
