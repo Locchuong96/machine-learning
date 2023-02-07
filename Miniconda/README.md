@@ -46,11 +46,17 @@ example: `myconda/envs/py38/bin/pip list`
 
 **11/ install new package in virtual enviroment**
 
+- install by package's name
+
 `bin/conda install -n <yourenv> <package>` or `pip install <package>`
 
-install new packages follow requirements.txt 
+- install by requirements.txt 
 
 `<your miniconda3>/envs/<your env>/bin/pip install -r requirements.txt` or `<your miniconda3>/envs/<your env>/bin/pip3 install -r requirements.txt`
+
+- install by wheel file
+
+`<your miniconda3>/envs/<your env>/bin/pip install <your wheel file>.whl` or `<your miniconda3>/envs/<your env>/bin/pip3 install <your wheel file>.whl`
 
 **12/ export installed packages to requirements.txt**
 
@@ -84,5 +90,9 @@ install new packages follow requirements.txt
 [uninstall conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/macos.html#:~:text=The%20installer%20prompts%20%E2%80%9CDo%20you,%E2%80%9D%20We%20recommend%20%E2%80%9Cyes%E2%80%9D.&text=If%20you%20enter%20%E2%80%9Cno%E2%80%9D%2C,your%20shell%20scripts%20at%20all.)
 
 [conda wheel file](https://docs.conda.io/projects/conda-build/en/3.23.x/user-guide/wheel-files.html)
+
+[python wheels](https://pythonwheels.com/)
+
+[pypi](https://pypi.org/) Find, install and publish Python packages with the Python Package Index
 
 [wheel package](https://realpython.com/python-wheels/#:~:text=whl%20file%20is%20essentially%20a,a%20type%20of%20built%20distribution.)
