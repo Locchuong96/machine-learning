@@ -85,4 +85,6 @@ install new packages follow requirements.txt
 
 [conda wheel file](https://docs.conda.io/projects/conda-build/en/3.23.x/user-guide/wheel-files.html)
 
+[pypi](https://pypi.org/) Find, install and publish Python packages with the Python Package Index
+
 [wheel package](https://realpython.com/python-wheels/#:~:text=whl%20file%20is%20essentially%20a,a%20type%20of%20built%20distribution.)
