@@ -54,3 +54,15 @@
 |25||Teaching ML course|||
 |26||Complete your math skill|||
 |27|Professional|Do research|||
+
+# References
+
+[spacy](https://spacy.io/)
+
+[mtm-python-oop](https://github.com/multi-template-matching/mtm-python-oop)
+
+[MultiTemplateMatching-Python](https://github.com/multi-template-matching/MultiTemplateMatching-Python)
+
+[Machine learning course google](https://developers.google.com/machine-learning/advanced-courses)
+
+[Feature Extraction](https://doc.perclass.com/perClass_Toolbox/guide/feature_extraction/region.html#region:grid)
