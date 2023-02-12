@@ -2,13 +2,13 @@
     
       [keyword] + [magic word]
       
-`tutorial`,`explaination`,`from scratch`,`backpropagation`,`paper`,`repo`,`build from source`
+`tutorial`,`explaination`,`build from scratch`,`backpropagation`,`paper`,`repo`,`build from source`
 
 ### Tool & platform
 
 ![banner](/picture/banner.PNG)
 
-[miniconda](https://repo.anaconda.com/miniconda/) | [hntrends](https://www.hntrends.com) | [kaggle](https://www.kaggle.com/) | [google colab](https://colab.research.google.com/?utm_source=scs-index&hl=en) | [tensorflow](https://www.tensorflow.org/api_docs/python/tf) | [pytorch](https://pytorch.org/) | [keras](https://keras.io/guides/) | [kdnuggets](https://www.kdnuggets.com/) | [paperswithcode](https://paperswithcode.com/) | [machinelearningcoban](https://machinelearningcoban.com/about/) | [diagrameditor](https://www.diagrameditor.com/) | [math](https://tutorial.math.lamar.edu/) | [openai](https://openai.com/) | [LaTex](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) | [medium](https://medium.com/) | [machinelearningmastery](https://machinelearningmastery.com/) | [tensorflow-hub](https://tfhub.dev/) | [sciencefriday](https://www.sciencefriday.com/) | [statictical](https://www.statsdirect.com/help/Default.htm#regression_and_correlation/polynomial.htm) | [make scene](https://www.makesense.ai/) | [datascience](https://datascience.eu/) | [Caffe](http://caffe.berkeleyvision.org/) | [datascience-enthusiast](https://datascience-enthusiast.com/DL/dlindex.html) | [ml-interviews-book](https://huyenchip.com/ml-interviews-book/) | [leimao](https://leimao.github.io/) | [google-code](https://code.google.com/archive/) | [dat-tran](https://dat-tran.com/)[deeplake](https://datasets.activeloop.ai/docs/ml/datasets/) | [neurohive](https://neurohive.io/en/) | [imagenet](https://image-net.org/challenges/LSVRC/2014/results) | [khanhblog](https://phamdinhkhanh.github.io/content) | [ml blog](https://neptune.ai/blog)
+[miniconda](https://repo.anaconda.com/miniconda/) | [hntrends](https://www.hntrends.com) | [kaggle](https://www.kaggle.com/) | [google colab](https://colab.research.google.com/?utm_source=scs-index&hl=en) | [tensorflow](https://www.tensorflow.org/api_docs/python/tf) | [pytorch](https://pytorch.org/) | [keras](https://keras.io/guides/) | [kdnuggets](https://www.kdnuggets.com/) | [paperswithcode](https://paperswithcode.com/) | [machinelearningcoban](https://machinelearningcoban.com/about/) | [diagrameditor](https://www.diagrameditor.com/) | [math](https://tutorial.math.lamar.edu/) | [openai](https://openai.com/) | [LaTex](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) | [medium](https://medium.com/) | [machinelearningmastery](https://machinelearningmastery.com/) | [tensorflow-hub](https://tfhub.dev/) | [sciencefriday](https://www.sciencefriday.com/) | [statictical](https://www.statsdirect.com/help/Default.htm#regression_and_correlation/polynomial.htm) | [make scene](https://www.makesense.ai/) | [datascience](https://datascience.eu/) | [Caffe](http://caffe.berkeleyvision.org/) | [datascience-enthusiast](https://datascience-enthusiast.com/DL/dlindex.html) | [ml-interviews-book](https://huyenchip.com/ml-interviews-book/) | [leimao](https://leimao.github.io/) | [google-code](https://code.google.com/archive/) | [dat-tran](https://dat-tran.com/)[deeplake](https://datasets.activeloop.ai/docs/ml/datasets/) | [neurohive](https://neurohive.io/en/) | [imagenet](https://image-net.org/challenges/LSVRC/2014/results) | [khanhblog](https://phamdinhkhanh.github.io/content) | [ml blog](https://neptune.ai/blog) | [spacy](https://spacy.io/)
 
 [install gimp](https://snapcraft.io/install/gimp/ubuntu#install)
 
@@ -56,6 +56,8 @@
 |27|Professional|Do research|||
 
 # References
+
+[zakjost](https://blog.zakjost.com/)
 
 [spacy](https://spacy.io/)
 
