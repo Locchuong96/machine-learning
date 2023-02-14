@@ -57,6 +57,12 @@
 
 # References
 
+[OpenVino](https://docs.openvino.ai/latest/home.html)
+
+[XGBoost](https://xgboost.readthedocs.io/en/stable/)
+
+[Onnx](https://onnx.ai/)
+
 [zakjost](https://blog.zakjost.com/)
 
 [spacy](https://spacy.io/)
