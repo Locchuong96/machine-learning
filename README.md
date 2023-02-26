@@ -57,6 +57,8 @@
 
 # References
 
+[time-series](https://otexts.com/fpp3/tspatterns.html)
+
 [OpenVino](https://docs.openvino.ai/latest/home.html)
 
 [XGBoost](https://xgboost.readthedocs.io/en/stable/)
