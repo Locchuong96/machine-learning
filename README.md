@@ -57,6 +57,8 @@
 
 # References
 
+[JAX](https://jax.readthedocs.io/en/latest/index.html)
+
 [time-series](https://otexts.com/fpp3/tspatterns.html)
 
 [OpenVino](https://docs.openvino.ai/latest/home.html)
