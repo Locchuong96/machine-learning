@@ -39,10 +39,10 @@
 |10||Get a **certificate** from **tensorflow, coursera**... or any famous Organizations|❌|2022-3|
 |11||Take some famous course like [CS329S](https://stanford-cs329s.github.io/) or [CS231n](https://cs231n.github.io/),...|❌|2022-4|
 |12||Be profesional on *Kaggle* |❌|2022-9|
-|13||Attend some events,seminars or webinars |🙋|2022|
-|14||Enroll in open source ML projects for non-profit|⭐|2022-4|
-|15||Get a part-time or freelance jobs and get money|💰|2022-4|
-|16||Get a full-time job and do ML for living|🏆||
+|13||Attend some events,seminars or webinars |❌|2022|
+|14||Enroll in open source ML projects for non-profit|❌|2022-4|
+|15||Get a part-time or freelance jobs and get money|❌|2022-4|
+|16||Get a full-time job and do ML for living|☑||
 |17||Embark many **competitions** and **win**|||
 |18||**Understand** ML repositories from some of famous guys|||
 |19||Build a model with just it's work flow|||
