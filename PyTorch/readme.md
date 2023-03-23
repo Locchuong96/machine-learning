@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=V_xro1bcAuA
+
 https://github.com/bentrevett/a-tour-of-pytorch-optimizers/blob/main/a-tour-of-pytorch-optimizers.ipynb
 
 https://github.com/bentrevett/pytorch-image-classification
