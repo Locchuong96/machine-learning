@@ -1,4 +1,13 @@
+https://github.com/bentrevett/a-tour-of-pytorch-optimizers/blob/main/a-tour-of-pytorch-optimizers.ipynb
 
-[PyTorch Tutorial](https://github.com/detectRecog/PyTorch-Tutorial)
+https://github.com/bentrevett/pytorch-image-classification
 
-[pytorch-tutorial](https://www.youtube.com/watch?v=Z_ikDlimN6A)
+https://github.com/bentrevett/pytorch-seq2seq
+
+https://lightning.ai/docs/pytorch/latest/
+
+https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html
+
+https://github.com/deeplearningzerotoall/PyTorch
+
+https://github.com/detectRecog/PyTorch-Tutorial
