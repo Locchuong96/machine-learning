@@ -45,3 +45,5 @@
 [73 - Image Segmentation using U-Net - Part1 (What is U-net?)](https://www.youtube.com/watch?v=azM57JuQpQI&list=PLZsOBAyNTZwbR08R959iCvYT3qzhxvGOE)
 
 [21 - Scratch assay analysis with just 5 lines code in Python](https://www.youtube.com/watch?v=jcUx-TQpcM8)
+
+[27 - CLAHE and Thresholding using opencv in Python](https://www.youtube.com/watch?v=XfDkg3z3BCg)
