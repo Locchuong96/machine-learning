@@ -57,6 +57,8 @@
 
 # References
 
+https://github.com/aladdinpersson/Machine-Learning-Collection#Object-Detection
+
 [JAX](https://jax.readthedocs.io/en/latest/index.html)
 
 [time-series](https://otexts.com/fpp3/tspatterns.html)
