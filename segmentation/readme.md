@@ -16,6 +16,8 @@
 
 [291 - Object segmentation using Deep Learning based edge detection (HED)​](https://www.youtube.com/watch?v=un7QvhXZ_G4)
 
+[32 - Grain size analysis in Python using a microscope image](https://www.youtube.com/watch?v=g3OZJ6skE_U)
+
 [264 - Image outlier detection using alibi-detect](https://www.youtube.com/watch?v=Pql6ShORpNU)
 
 [287 - Tracking particles and objects using Trackpy in python](https://www.youtube.com/watch?v=yh_nRTkh9xo)
@@ -41,3 +43,5 @@
 [198 - Feature selection using Boruta in python](https://www.youtube.com/watch?v=_5t8ZtRybT8)
 
 [73 - Image Segmentation using U-Net - Part1 (What is U-net?)](https://www.youtube.com/watch?v=azM57JuQpQI&list=PLZsOBAyNTZwbR08R959iCvYT3qzhxvGOE)
+
+[21 - Scratch assay analysis with just 5 lines code in Python](https://www.youtube.com/watch?v=jcUx-TQpcM8)
