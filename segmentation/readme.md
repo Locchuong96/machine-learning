@@ -4,8 +4,6 @@
 
 [226 - U-Net vs Attention U-Net vs Attention Residual U-Net - should you care?](https://www.youtube.com/watch?v=L5iV5BHkMzM)
 
-[Labeling images using LabKit for semantic segmentation](https://www.youtube.com/watch?v=KopmsnC8GWI)
-
 [307 - Segment your images in python without training using Segment Anything Model (SAM)](https://www.youtube.com/watch?v=fVeW9a6wItM)
 
 [204 - U-Net for semantic segmentation of mitochondria](https://www.youtube.com/watch?v=csFGTLT6_WQ)
