@@ -1,5 +1,10 @@
 # image classication
 
+[158 - Convolutional filters + Random Forest for image classification.](https://www.youtube.com/watch?v=9GzfUzJeyi0)
+
+
+[158b - Transfer learning using CNN (VGG16) as feature extractor and Random Forest classifier](https://www.youtube.com/watch?v=IuoEiemAuIY)
+
 [220 - What is the best loss function for semantic segmentation?](https://www.youtube.com/watch?v=9GzfUzJeyi0)
 
 https://github.com/facebookresearch/MaskFormer
