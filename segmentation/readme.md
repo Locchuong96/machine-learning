@@ -1,6 +1,6 @@
 # references
 
-[Sử dụng Unet để phân vùng, phát hiện sản phẩm lỗi - Mì AI](https://www.youtube.com/watch?v=lgV1O4fHg6A)
+[226 - U-Net vs Attention U-Net vs Attention Residual U-Net - should you care?](https://www.youtube.com/watch?v=L5iV5BHkMzM)
 
 [Labeling images using LabKit for semantic segmentation](https://www.youtube.com/watch?v=KopmsnC8GWI)
 
