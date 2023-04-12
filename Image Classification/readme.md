@@ -1,5 +1,7 @@
 # image classication
 
+[220 - What is the best loss function for semantic segmentation?](https://www.youtube.com/watch?v=9GzfUzJeyi0)
+
 https://github.com/facebookresearch/MaskFormer
 
 https://github.com/Azure/pixel_level_land_classification
