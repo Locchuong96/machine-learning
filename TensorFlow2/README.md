@@ -1,5 +1,7 @@
 ### How to pass tensorflow exam???
 
+[TensorFlow Tutorial 17 - Complete TensorBoard Guide](https://www.youtube.com/watch?v=k7KfYXXrOj0)
+
 [Tensorflow Page](https://www.tensorflow.org/certificate)
 
 [TF_Certificate_Candidate_Handbook](https://www.tensorflow.org/static/extras/cert/TF_Certificate_Candidate_Handbook.pdf)
