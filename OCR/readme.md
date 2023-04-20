@@ -1,1 +1,11 @@
 # OCR
+
+https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/PPOCRLabel/README.md
+
+https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_en/PP-OCRv3_introduction_en.md
+
+https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_en/PP-OCRv3_det_train_en.md
+
+https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_en/recognition_en.md
+
+https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_en/detection_en.md
