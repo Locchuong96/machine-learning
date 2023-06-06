@@ -2,6 +2,10 @@
 
 ### references
 
+https://machinelearningmastery.com/cyclegan-tutorial-with-keras/
+
+https://machinelearningmastery.com/how-to-develop-a-pix2pix-gan-for-image-to-image-translation/
+
 [Bài 0: Giới thiệu series GAN (Generative Adversarial Networks)](https://nttuan8.com/gioi-thieu-series-gan-generative-adversarial-networks/)
 
 [Bài 1: Giới thiệu về GAN](https://nttuan8.com/bai-1-gioi-thieu-ve-gan/)
