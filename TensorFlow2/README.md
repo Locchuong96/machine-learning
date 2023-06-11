@@ -1,6 +1,14 @@
 ### How to pass tensorflow exam???
 
-[TensorFlow Tutorial 17 - Complete TensorBoard Guide](https://www.youtube.com/watch?v=k7KfYXXrOj0)
+[How to pass the TensorFlow Developer Certificate : Everything you need to know](https://www.youtube.com/watch?v=uhuM57L_QTU)
+
+[How to get your Google Tensorflow certification in 2 months or less. Following along Daniel Bourke!](https://www.youtube.com/watch?v=4V2hGcYlG2Q)
+
+[How I passed the TensorFlow Developer Certification exam (and how you can too)](https://www.youtube.com/watch?v=ya5NwvKafDk)
+
+[How To Pass Tensorflow certification exam ?](https://www.youtube.com/watch?v=pKUz9mW-jGU)
+
+[How I passed the TensorFlow Developer Certification exam & how you can too](https://www.youtube.com/watch?v=z28aEE38Uk0)
 
 [Tensorflow Page](https://www.tensorflow.org/certificate)
 
