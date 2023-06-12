@@ -1,5 +1,7 @@
 # mask rcnn
 
+# references
+
 [283 - What is Mask R-CNN?](https://www.youtube.com/watch?v=NEl9RPyMgzY)
 
 [285 - Object detection using Mask RCNN (with XML annotated data)](https://www.youtube.com/watch?v=MF2AYo0SO6s)
@@ -17,3 +19,5 @@
 [Plant leaf disease detection using Mask R-CNN | Image Segmentation](youtube.com/watch?v=7ECsYizxC9E)
 
 [Mask R-CNN Practical Implementation](https://www.youtube.com/watch?v=t1MrzuAUdoE)
+
+[Conda Enviroments with Jupyter Notebooks Kernels](https://www.youtube.com/watch?v=Ro9l0eapoJU)
