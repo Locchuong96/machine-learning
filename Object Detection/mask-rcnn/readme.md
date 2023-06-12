@@ -11,3 +11,9 @@
 [Mask R-CNN for Object Detection and Segmentation using TensorFlow 2.0](https://github.com/ahmedfgad/Mask-RCNN-TF2)
 
 [Mask-RCNN-on-Custom-Dataset-2classes-](https://github.com/AarohiSingla/Mask-RCNN-on-Custom-Dataset-2classes-)
+
+[Plant-Disease-Detection-Using-Mask-R-CNN](https://github.com/AarohiSingla/Plant-Disease-Detection-Using-Mask-R-CNN)
+
+[Plant leaf disease detection using Mask R-CNN | Image Segmentation](youtube.com/watch?v=7ECsYizxC9E)
+
+[Mask R-CNN Practical Implementation](https://www.youtube.com/watch?v=t1MrzuAUdoE)
