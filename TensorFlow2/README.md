@@ -1,5 +1,7 @@
 ### How to pass tensorflow exam???
 
+[tensorflow serving](https://www.tensorflow.org/tfx/guide/serving)
+
 [How to pass the TensorFlow Developer Certificate : Everything you need to know](https://www.youtube.com/watch?v=uhuM57L_QTU)
 
 [How to get your Google Tensorflow certification in 2 months or less. Following along Daniel Bourke!](https://www.youtube.com/watch?v=4V2hGcYlG2Q)
