@@ -1,5 +1,9 @@
 # object detection
 
+https://github.com/jakeret/unet
+
+https://towardsai.net/p/machine-learning/understanding-pascal-voc-and-coco-annotations-for-object-detection
+
 https://www.analyticsvidhya.com/blog/2022/12/know-about-zero-shot-one-shot-and-few-shot-learning/
 
 https://github.com/Hulkido/RCNN
