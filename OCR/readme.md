@@ -1,5 +1,11 @@
 # OCR
 
+https://github.com/githubharald/SimpleHTR
+
+https://github.com/ChuongLoc/CTCWordBeamSearch
+
+https://github.com/oh-my-ocr/text_renderer
+
 https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/PPOCRLabel/README.md
 
 https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.6/doc/doc_en/PP-OCRv3_introduction_en.md
