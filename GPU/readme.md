@@ -1,5 +1,9 @@
 # references
 
+https://github.com/Canjie-Luo/MORAN_v2
+
+https://docs.nvidia.com/deploy/cuda-compatibility/index.html
+
 [217 - 9 steps to installing TensorFlow GPU on Windows 10](https://www.youtube.com/watch?v=yLVFwAaFACk)
 
 https://docs.nvidia.com/datacenter/tesla/tesla-installation-notes/index.html
