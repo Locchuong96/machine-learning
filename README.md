@@ -57,9 +57,19 @@
 
 # References
 
+https://developer.nvidia.com/cuda-gpus
+
+https://tiensu.github.io/about/
+
+https://hackernoon.com/
+
+https://distill.pub/
+
 https://otexts.com/fpp3/
 
 https://github.com/aladdinpersson/Machine-Learning-Collection#Object-Detection
+
+https://datascience.stackexchange.com/
 
 [JAX](https://jax.readthedocs.io/en/latest/index.html)
 
