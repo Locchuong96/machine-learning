@@ -1,5 +1,7 @@
 # data analysis course
 
+https://www.kaggle.com/code/cdeotte/titanic-wcg-xgboost-0-84688
+
 [Data analysis course](https://www.youtube.com/watch?v=GPVsHOlRBBI&list=PLsM05n4rlXWSBgG144ruSaAaB7GI2r5Ea)
 
 [Tensorflow quick start](https://www.youtube.com/watch?v=5Ym-dOS9ssA&list=PLhhyoLH6IjfxVOdVC1P1L5z5azs0XjMsb)
