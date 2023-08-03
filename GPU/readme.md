@@ -1,5 +1,7 @@
 # references
 
+https://phoenixnap.com/kb/install-nvidia-drivers-ubuntu
+
 https://github.com/Canjie-Luo/MORAN_v2
 
 https://docs.nvidia.com/deploy/cuda-compatibility/index.html
