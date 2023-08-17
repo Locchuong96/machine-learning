@@ -57,6 +57,12 @@
 
 # References
 
+https://www.youtube.com/watch?v=awyWND506NY
+
+https://www.youtube.com/watch?v=IA3WxTTPXqQ
+
+https://www.youtube.com/watch?v=dMkiOex_cKU
+
 https://developer.nvidia.com/cuda-gpus
 
 https://tiensu.github.io/about/
