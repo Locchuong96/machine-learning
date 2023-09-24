@@ -1,6 +1,8 @@
 
 [PyTorch for Deep Learning & Machine Learning – Full Course](https://www.youtube.com/watch?v=V_xro1bcAuA)
 
+https://pytorch.org/get-started/previous-versions/
+
 https://github.com/aladdinpersson/Machine-Learning-Collection#Object-Detection
 
 https://www.youtube.com/watch?v=V_xro1bcAuA
