@@ -57,6 +57,8 @@
 
 # References
 
+https://www.youtube.com/@outliier/videos
+
 https://www.youtube.com/watch?v=awyWND506NY
 
 https://www.youtube.com/watch?v=IA3WxTTPXqQ
