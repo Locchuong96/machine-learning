@@ -77,6 +77,8 @@ https://github.com/aladdinpersson/Machine-Learning-Collection#Object-Detection
 
 https://datascience.stackexchange.com/
 
+[assemblyai](https://www.assemblyai.com/blog)
+
 [paddle-paddle](https://www.paddlepaddle.org.cn/documentation/docs/en/guides/index_en.html)
 
 [JAX](https://jax.readthedocs.io/en/latest/index.html)
