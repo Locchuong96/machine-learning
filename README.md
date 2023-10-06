@@ -57,6 +57,8 @@
 
 # References
 
+https://uvadlc-notebooks.readthedocs.io/en/latest/index.html
+
 https://www.youtube.com/@outliier/videos
 
 https://www.youtube.com/watch?v=awyWND506NY
