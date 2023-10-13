@@ -57,6 +57,8 @@
 
 # References
 
+https://www.youtube.com/watch?v=wcs4dz2rnFw
+
 https://pytorch-geometric.readthedocs.io/en/latest/get_started/colabs.html
 
 https://uvadlc-notebooks.readthedocs.io/en/latest/index.html
